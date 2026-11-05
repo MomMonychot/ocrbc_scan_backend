@@ -7,6 +7,3188 @@
   },
   "provinces": [
     {
+      "code": "01",
+      "name_km": "ខេត្តបន្ទាយមានជ័យ",
+      "name_en": "Banteay Meanchey",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "0106",
+          "name_km": "ក្រុងសិរីសោភ័ណ",
+          "name_en": "Krong Serei Saophoan",
+          "communes": [
+            {
+              "code": "010601",
+              "name_km": "សង្កាត់កំពង់ស្វាយ",
+              "name_en": "Sangkat Kampong Svay",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "01060101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01060102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010602",
+              "name_km": "សង្កាត់ព្រះពន្លា",
+              "name_en": "Sangkat Preah Ponlea",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "01060201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01060202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010603",
+              "name_km": "សង្កាត់ទឹកថ្លា",
+              "name_en": "Sangkat Tuek Thla",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "01060301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01060302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0109",
+          "name_km": "ក្រុងប៉ោយប៉ែត",
+          "name_en": "Krong Poipet",
+          "communes": [
+            {
+              "code": "010901",
+              "name_km": "សង្កាត់ប៉ោយប៉ែត",
+              "name_en": "Sangkat Poipet",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "01090101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01090102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010902",
+              "name_km": "សង្កាត់ផ្សារកណ្តាល",
+              "name_en": "Sangkat Phsar Kandal",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "01090201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01090202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010903",
+              "name_km": "សង្កាត់និមិត្ត",
+              "name_en": "Sangkat Nimitt",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "01090301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01090302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0102",
+          "name_km": "ស្រុកមង្គលបូរី",
+          "name_en": "Mongkol Borei",
+          "type": "District",
+          "communes": [
+            {
+              "code": "010201",
+              "name_km": "បន្ទាយនាង",
+              "name_en": "Banteay Neang",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01020101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01020102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010202",
+              "name_km": "បត់ត្រង់",
+              "name_en": "Bat Trang",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01020201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01020202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010203",
+              "name_km": "ចំណោម",
+              "name_en": "Chamnaom",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01020301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01020302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010204",
+              "name_km": "គោកបាល្ល័ង្ក",
+              "name_en": "Kouk Ballangk",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01020401",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01020402",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0103",
+          "name_km": "ស្រុកភ្នំស្រុក",
+          "name_en": "Phnum Srok",
+          "type": "District",
+          "communes": [
+            {
+              "code": "010301",
+              "name_km": "ណាំតៅ",
+              "name_en": "Nam Tau",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01030101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01030102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010302",
+              "name_km": "ពន្លិច",
+              "name_en": "Ponley",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01030201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01030202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010303",
+              "name_km": "ស្ពានស្រែង",
+              "name_en": "Spean Sraeng",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01030301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01030302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0104",
+          "name_km": "ស្រុកព្រះនេត្រព្រះ",
+          "name_en": "Preah Netr Preah",
+          "type": "District",
+          "communes": [
+            {
+              "code": "010401",
+              "name_km": "ឈ្នួរមានជ័យ",
+              "name_en": "Chhnour Mean Chey",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01040101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01040102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010402",
+              "name_km": "ជប់វារី",
+              "name_en": "Chob Varei",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01040201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01040202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010403",
+              "name_km": "ភ្នំដី",
+              "name_en": "Phnum Dei",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01040301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01040302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0105",
+          "name_km": "ស្រុកអូរជ្រៅ",
+          "name_en": "Ou Chrov",
+          "type": "District",
+          "communes": [
+            {
+              "code": "010501",
+              "name_km": "ចង្ហា",
+              "name_en": "Changha",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01050101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01050102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010502",
+              "name_km": "កូប",
+              "name_en": "Koub",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01050201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01050202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010503",
+              "name_km": "សំរោង",
+              "name_en": "Samraong",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01050301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01050302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0107",
+          "name_km": "ស្រុកថ្មពួក",
+          "name_en": "Thma Puok",
+          "type": "District",
+          "communes": [
+            {
+              "code": "010701",
+              "name_km": "គោកកឋិន",
+              "name_en": "Kouk Kathin",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01070101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01070102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010702",
+              "name_km": "ថ្មពួក",
+              "name_en": "Thma Puok",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01070201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01070202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010703",
+              "name_km": "បន្ទាយឆ្មារ",
+              "name_en": "Banteay Chhmar",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01070301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01070302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0108",
+          "name_km": "ស្រុកស្វាយចេក",
+          "name_en": "Svay Chek",
+          "type": "District",
+          "communes": [
+            {
+              "code": "010801",
+              "name_km": "ស្វាយចេក",
+              "name_en": "Svay Chek",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01080101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01080102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "010802",
+              "name_km": "តារាងសែន",
+              "name_en": "Ta Reang Saen",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01080201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01080202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0110",
+          "name_km": "ស្រុកម៉ាឡៃ",
+          "name_en": "Malai",
+          "type": "District",
+          "communes": [
+            {
+              "code": "011001",
+              "name_km": "បឹងបេង",
+              "name_en": "Boeng Beng",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01100101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01100102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "011002",
+              "name_km": "ម៉ាឡៃ",
+              "name_en": "Malai",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01100201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01100202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "011003",
+              "name_km": "អូរសំព័រ",
+              "name_en": "Ou Sampor",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "01100301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "01100302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "name_km": "ខេត្តបាត់ដំបង",
+      "name_en": "Battambang",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "0203",
+          "name_km": "ក្រុងបាត់ដំបង",
+          "name_en": "Krong Battambang",
+          "communes": [
+            {
+              "code": "020301",
+              "name_km": "សង្កាត់ទួលតាឯក",
+              "name_en": "Sangkat Tuol Ta Aek",
+              "villages": []
+            },
+            {
+              "code": "020302",
+              "name_km": "សង្កាត់ព្រែកព្រះស្តេច",
+              "name_en": "Sangkat Prek Preah Sdach",
+              "villages": []
+            },
+            {
+              "code": "020303",
+              "name_km": "សង្កាត់រតនៈ",
+              "name_en": "Sangkat Ratanak",
+              "villages": []
+            },
+            {
+              "code": "020304",
+              "name_km": "សង្កាត់ចំការសំរោង",
+              "name_en": "Sangkat Chamkar Samraong",
+              "villages": []
+            },
+            {
+              "code": "020305",
+              "name_km": "សង្កាត់ស្លាកែត",
+              "name_en": "Sangkat Sla Kaet",
+              "villages": []
+            },
+            {
+              "code": "020306",
+              "name_km": "សង្កាត់ក្តុលដូនទាវ",
+              "name_en": "Sangkat Kdol Doun Teav",
+              "villages": []
+            },
+            {
+              "code": "020307",
+              "name_km": "សង្កាត់អូម៉ាល់",
+              "name_en": "Sangkat Ou Mal",
+              "villages": []
+            },
+            {
+              "code": "020308",
+              "name_km": "សង្កាត់វត្តគរ",
+              "name_en": "Sangkat Voat Kor",
+              "villages": []
+            },
+            {
+              "code": "020309",
+              "name_km": "សង្កាត់អូរចារ",
+              "name_en": "Sangkat Ou Char",
+              "villages": []
+            },
+            {
+              "code": "020310",
+              "name_km": "សង្កាត់ស្វាយប៉ោ",
+              "name_en": "Sangkat Svay Pao",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "0208",
+          "name_km": "ស្រុកសង្កែ",
+          "name_en": "Sangkae",
+          "communes": [
+            {
+              "code": "020801",
+              "name_km": "ឃុំអន្លង់វិល",
+              "name_en": "Anlong Vil",
+              "villages": []
+            },
+            {
+              "code": "020802",
+              "name_km": "ឃុំនរា",
+              "name_en": "Norea",
+              "villages": []
+            },
+            {
+              "code": "020803",
+              "name_km": "ឃុំតាប៉ុន",
+              "name_en": "Ta Pon",
+              "villages": []
+            },
+            {
+              "code": "020804",
+              "name_km": "ឃុំរាំងកេសី",
+              "name_en": "Reang Kesei",
+              "villages": []
+            },
+            {
+              "code": "020805",
+              "name_km": "ឃុំរតនៈ",
+              "name_en": "Ratanak",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "0201",
+          "name_km": "ស្រុកបាណន់",
+          "name_en": "Banan",
+          "type": "District",
+          "communes": [
+            {
+              "code": "020101",
+              "name_km": "កន្ទឺ ១",
+              "name_en": "Kanteu 1",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02010101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02010102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020102",
+              "name_km": "បាយដំរាំ",
+              "name_en": "Bay Damram",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02010201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02010202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020103",
+              "name_km": "ឈើទាល",
+              "name_en": "Chheu Teal",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02010301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02010302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020104",
+              "name_km": "ស្នឹង",
+              "name_en": "Snoeng",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02010401",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02010402",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0202",
+          "name_km": "ស្រុកថ្មគោល",
+          "name_en": "Thma Koul",
+          "type": "District",
+          "communes": [
+            {
+              "code": "020201",
+              "name_km": "តាពូង",
+              "name_en": "Ta Poung",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02020101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02020102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020202",
+              "name_km": "តាម៉ឺន",
+              "name_en": "Ta Meun",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02020201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02020202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020203",
+              "name_km": "អូតាគី",
+              "name_en": "Ou Taki",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02020301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02020302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020204",
+              "name_km": "ជ្រៃ",
+              "name_en": "Chrey",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02020401",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02020402",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0204",
+          "name_km": "ស្រុកបវេល",
+          "name_en": "Bavel",
+          "type": "District",
+          "communes": [
+            {
+              "code": "020401",
+              "name_km": "បវេល",
+              "name_en": "Bavel",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02040101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02040102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020402",
+              "name_km": "ឃ្លាំងមាស",
+              "name_en": "Khlang Meas",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02040201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02040202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020403",
+              "name_km": "បឹងប្រាំ",
+              "name_en": "Boeng Pram",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02040301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02040302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0205",
+          "name_km": "ស្រុកឯកភ្នំ",
+          "name_en": "Ek Phnom",
+          "type": "District",
+          "communes": [
+            {
+              "code": "020501",
+              "name_km": "ព្រែកនរិន្ទ",
+              "name_en": "Prek Norint",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02050101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02050102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020502",
+              "name_km": "សំរោងក្នុង",
+              "name_en": "Samraong Knong",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02050201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02050202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020503",
+              "name_km": "ពាមឯក",
+              "name_en": "Peam Ek",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02050301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02050302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0206",
+          "name_km": "ស្រុកមោងឫស្សី",
+          "name_en": "Moung Ruessei",
+          "type": "District",
+          "communes": [
+            {
+              "code": "020601",
+              "name_km": "មោង",
+              "name_en": "Moung",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02060101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02060102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020602",
+              "name_km": "គារ",
+              "name_en": "Kear",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02060201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02060202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020603",
+              "name_km": "ព្រៃស្វាយ",
+              "name_en": "Prey Svay",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02060301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02060302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020604",
+              "name_km": "ឫស្សីក្រាំង",
+              "name_en": "Ruessei Krang",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02060401",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02060402",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0207",
+          "name_km": "ស្រុករតនមណ្ឌល",
+          "name_en": "Rotanak Mondol",
+          "type": "District",
+          "communes": [
+            {
+              "code": "020701",
+              "name_km": "ស្តៅ",
+              "name_en": "Sdau",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02070101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02070102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020702",
+              "name_km": "អណ្តើកហែប",
+              "name_en": "Andaeuk Haeb",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02070201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02070202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020703",
+              "name_km": "ត្រែង",
+              "name_en": "Treang",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02070301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02070302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0209",
+          "name_km": "ស្រុកសំឡូត",
+          "name_en": "Samlout",
+          "type": "District",
+          "communes": [
+            {
+              "code": "020901",
+              "name_km": "តាសាញ",
+              "name_en": "Ta Sanh",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02090101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02090102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020902",
+              "name_km": "សំឡូត",
+              "name_en": "Samlout",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02090201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02090202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "020903",
+              "name_km": "មានជ័យ",
+              "name_en": "Mean Chey",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02090301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02090302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0210",
+          "name_km": "ស្រុកសំពៅលូន",
+          "name_en": "Sampov Lun",
+          "type": "District",
+          "communes": [
+            {
+              "code": "021001",
+              "name_km": "សំពៅលូន",
+              "name_en": "Sampov Lun",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02100101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02100102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "021002",
+              "name_km": "អង្គរបាន",
+              "name_en": "Angkor Ban",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02100201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02100202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0211",
+          "name_km": "ស្រុកភ្នំព្រឹក",
+          "name_en": "Phnom Proek",
+          "type": "District",
+          "communes": [
+            {
+              "code": "021101",
+              "name_km": "ភ្នំព្រឹក",
+              "name_en": "Phnom Proek",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02110101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02110102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "021102",
+              "name_km": "បារាំងធ្លាក់",
+              "name_en": "Barang Thleak",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02110201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02110202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0212",
+          "name_km": "ស្រុកកំរៀង",
+          "name_en": "Kamrieng",
+          "type": "District",
+          "communes": [
+            {
+              "code": "021201",
+              "name_km": "កំរៀង",
+              "name_en": "Kamrieng",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02120101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02120102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "021202",
+              "name_km": "បឹងរាំង",
+              "name_en": "Boeng Reang",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02120201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02120202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0213",
+          "name_km": "ស្រុកកោះក្រឡ",
+          "name_en": "Koas Krala",
+          "type": "District",
+          "communes": [
+            {
+              "code": "021301",
+              "name_km": "កោះក្រឡ",
+              "name_en": "Koas Krala",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02130101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02130102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "021302",
+              "name_km": "ព្រះពន្លា",
+              "name_en": "Preah Ponlea",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02130201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02130202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0214",
+          "name_km": "ស្រុករុក្ខគីរី",
+          "name_en": "Rukh Kiri",
+          "type": "District",
+          "communes": [
+            {
+              "code": "021401",
+              "name_km": "ព្រែកជីក",
+              "name_en": "Prek Chik",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02140101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02140102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "021402",
+              "name_km": "បាសាក់",
+              "name_en": "Basak",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "02140201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "02140202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "name_km": "ខេត្តកំពង់ចាម",
+      "name_en": "Kampong Cham",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "0305",
+          "name_km": "ក្រុងកំពង់ចាម",
+          "name_en": "Krong Kampong Cham",
+          "communes": [
+            {
+              "code": "030501",
+              "name_km": "សង្កាត់បឹងកុក",
+              "name_en": "Sangkat Boeng Kok",
+              "villages": []
+            },
+            {
+              "code": "030502",
+              "name_km": "សង្កាត់កំពង់ចាម",
+              "name_en": "Sangkat Kampong Cham",
+              "villages": []
+            },
+            {
+              "code": "030503",
+              "name_km": "សង្កាត់វាលវង់",
+              "name_en": "Sangkat Veal Vong",
+              "villages": []
+            },
+            {
+              "code": "030504",
+              "name_km": "សង្កាត់សំបួរមាស",
+              "name_en": "Sangkat Sambuor Meas",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "0303",
+          "name_km": "ស្រុកចំការលើ",
+          "name_en": "Chamkar Leu",
+          "communes": [
+            {
+              "code": "030301",
+              "name_km": "ឃុំបុសខ្នុរ",
+              "name_en": "Bos Khnor",
+              "villages": []
+            },
+            {
+              "code": "030302",
+              "name_km": "ឃុំចំការអណ្តូង",
+              "name_en": "Chamkar Andoung",
+              "villages": []
+            },
+            {
+              "code": "030303",
+              "name_km": "ឃុំស្វាយទាប",
+              "name_en": "Svay Teab",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "0301",
+          "name_km": "ស្រុកបាធាយ",
+          "name_en": "Batheay",
+          "type": "District",
+          "communes": [
+            {
+              "code": "030101",
+              "name_km": "បាធាយ",
+              "name_en": "Batheay",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03010101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03010102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "030102",
+              "name_km": "ច្បារអំពៅ",
+              "name_en": "Chbar Ampov",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03010201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03010202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "030103",
+              "name_km": "មេព្រីង",
+              "name_en": "Me Pring",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03010301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03010302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "030104",
+              "name_km": "សំបូរ",
+              "name_en": "Sambour",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03010401",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03010402",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0302",
+          "name_km": "ស្រុកចំការលើ",
+          "name_en": "Chamkar Leu",
+          "type": "District",
+          "communes": [
+            {
+              "code": "030201",
+              "name_km": "ចំការអណ្តូង",
+              "name_en": "Chamkar Andoung",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03020101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03020102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "030202",
+              "name_km": "ស្វាយទាប",
+              "name_en": "Svay Teab",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03020201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03020202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "030203",
+              "name_km": "តាអុង",
+              "name_en": "Ta Ong",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03020301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03020302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0306",
+          "name_km": "ស្រុកកំពង់សៀម",
+          "name_en": "Kampong Siem",
+          "type": "District",
+          "communes": [
+            {
+              "code": "030601",
+              "name_km": "អំពិល",
+              "name_en": "Ampil",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03060101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03060102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "030602",
+              "name_km": "កោះមិត្ត",
+              "name_en": "Kaoh Mitt",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03060201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03060202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "030603",
+              "name_km": "រអាង",
+              "name_en": "Ro'ang",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03060301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03060302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0307",
+          "name_km": "ស្រុកកងមាស",
+          "name_en": "Kang Meas",
+          "type": "District",
+          "communes": [
+            {
+              "code": "030701",
+              "name_km": "អង្គរបាន",
+              "name_en": "Angkor Ban",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03070101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03070102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "030702",
+              "name_km": "ពាមជីកង",
+              "name_en": "Peam Chi Kang",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03070201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03070202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "030703",
+              "name_km": "រាយប៉ាយ",
+              "name_en": "Reay Pay",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03070301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03070302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0308",
+          "name_km": "ស្រុកកោះសូទិន",
+          "name_en": "Koh Sotin",
+          "type": "District",
+          "communes": [
+            {
+              "code": "030801",
+              "name_km": "កំពង់រាប",
+              "name_en": "Kampong Reab",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03080101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03080102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "030802",
+              "name_km": "កោះសូទិន",
+              "name_en": "Kaoh Sotin",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03080201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03080202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "030803",
+              "name_km": "ពង្រ",
+              "name_en": "Pongro",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03080301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03080302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0309",
+          "name_km": "ស្រុកព្រៃឈរ",
+          "name_en": "Prey Chhor",
+          "type": "District",
+          "communes": [
+            {
+              "code": "030901",
+              "name_km": "ជ្រៃវៀន",
+              "name_en": "Chrey Vien",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03090101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03090102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "030902",
+              "name_km": "ព្រៃឈរ",
+              "name_en": "Prey Chhor",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03090201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03090202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "030903",
+              "name_km": "សូរគង",
+              "name_en": "Sour Kong",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03090301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03090302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0310",
+          "name_km": "ស្រុកស្រីសន្ធរ",
+          "name_en": "Srey Santhor",
+          "type": "District",
+          "communes": [
+            {
+              "code": "031001",
+              "name_km": "បារាយណ៍",
+              "name_en": "Baray",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03100101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03100102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "031002",
+              "name_km": "ព្រែកពោធិ៍",
+              "name_en": "Prek Pou",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03100201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03100202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "031003",
+              "name_km": "ស្វាយពោធិ៍",
+              "name_en": "Svay Pou",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "03100301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "03100302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "name_km": "ខេត្តកំពង់ឆ្នាំង",
+      "name_en": "Kampong Chhnang",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "0403",
+          "name_km": "ក្រុងកំពង់ឆ្នាំង",
+          "name_en": "Krong Kampong Chhnang",
+          "communes": [
+            {
+              "code": "040301",
+              "name_km": "សង្កាត់កំពង់ឆ្នាំង",
+              "name_en": "Sangkat Kampong Chhnang",
+              "villages": []
+            },
+            {
+              "code": "040302",
+              "name_km": "សង្កាត់ផ្សារឆ្នាំង",
+              "name_en": "Sangkat Phsar Chhnang",
+              "villages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "name_km": "ខេត្តកំពង់ស្ពឺ",
+      "name_en": "Kampong Speu",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "0502",
+          "name_km": "ក្រុងច្បារមន",
+          "name_en": "Krong Chbar Mon",
+          "communes": [
+            {
+              "code": "050201",
+              "name_km": "សង្កាត់ច្បារមន",
+              "name_en": "Sangkat Chbar Mon",
+              "villages": []
+            },
+            {
+              "code": "050202",
+              "name_km": "សង្កាត់កណ្តោលដុំ",
+              "name_en": "Sangkat Kandaol Dom",
+              "villages": []
+            },
+            {
+              "code": "050203",
+              "name_km": "សង្កាត់រការធំ",
+              "name_en": "Sangkat Roka Thum",
+              "villages": []
+            },
+            {
+              "code": "050204",
+              "name_km": "សង្កាត់សុពណ៌ទេព",
+              "name_en": "Sangkat Sopoar Tep",
+              "villages": []
+            },
+            {
+              "code": "050205",
+              "name_km": "សង្កាត់ស្វាយក្រវ៉ាន់",
+              "name_en": "Sangkat Svay Kravan",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "0501",
+          "name_km": "ស្រុកបរសេដ្ឋ",
+          "name_en": "Basedth",
+          "type": "District",
+          "communes": [
+            {
+              "code": "050101",
+              "name_km": "បរសេដ្ឋ",
+              "name_en": "Basedth",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05010101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05010102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "050102",
+              "name_km": "កក់",
+              "name_en": "Kak",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05010201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05010202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "050103",
+              "name_km": "និទាន",
+              "name_en": "Nitean",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05010301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05010302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0503",
+          "name_km": "ស្រុកគងពិសី",
+          "name_en": "Kong Pisei",
+          "type": "District",
+          "communes": [
+            {
+              "code": "050301",
+              "name_km": "អង្គពពេល",
+              "name_en": "Angk Popel",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05030101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05030102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "050302",
+              "name_km": "ព្រះនិព្វាន្ត",
+              "name_en": "Preah Nipean",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05030201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05030202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "050303",
+              "name_km": "វាល",
+              "name_en": "Veal",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05030301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05030302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0504",
+          "name_km": "ស្រុកឱរ៉ាល់",
+          "name_en": "Aoral",
+          "type": "District",
+          "communes": [
+            {
+              "code": "050401",
+              "name_km": "ហោងសំណំ",
+              "name_en": "Haong Samnam",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05040101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05040102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "050402",
+              "name_km": "រស្មីសាមគ្គី",
+              "name_en": "Reaksmei Sameakki",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05040201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05040202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0505",
+          "name_km": "ស្រុកឧដុង្គម៉ែជ័យ",
+          "name_en": "Odongk Meanchey",
+          "type": "District",
+          "communes": [
+            {
+              "code": "050501",
+              "name_km": "វាំងចាស់",
+              "name_en": "Veang Chas",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05050101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05050102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "050502",
+              "name_km": "ត្រាចទង",
+              "name_en": "Trach Tong",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05050201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05050202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0506",
+          "name_km": "ស្រុកសំរោងទង",
+          "name_en": "Samraong Tong",
+          "type": "District",
+          "communes": [
+            {
+              "code": "050601",
+              "name_km": "រលាំងគ្រើល",
+              "name_en": "Roleang Kroeul",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05060101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05060102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "050602",
+              "name_km": "សំរោងទង",
+              "name_en": "Samraong Tong",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05060201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05060202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0507",
+          "name_km": "ស្រុកថ្ពង",
+          "name_en": "Thpong",
+          "type": "District",
+          "communes": [
+            {
+              "code": "050701",
+              "name_km": "អមលាំង",
+              "name_en": "Amlang",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05070101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05070102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "050702",
+              "name_km": "ប្រាំបីមុំ",
+              "name_en": "Prambei Mom",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05070201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05070202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0508",
+          "name_km": "ស្រុកភ្នំស្រួច",
+          "name_en": "Phnum Sruoch",
+          "type": "District",
+          "communes": [
+            {
+              "code": "050801",
+              "name_km": "ត្រែងត្រយឹង",
+              "name_en": "Treng Trayoeng",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05080101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05080102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "050802",
+              "name_km": "ព្រៃក្មេង",
+              "name_en": "Prey Kmeng",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "05080201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "05080202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "name_km": "ខេត្តកំពង់ធំ",
+      "name_en": "Kampong Thom",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "0603",
+          "name_km": "ក្រុងស្ទឹងសែន",
+          "name_en": "Krong Stueng Saen",
+          "communes": [
+            {
+              "code": "060301",
+              "name_km": "សង្កាត់ដំរីជាន់ខ្លា",
+              "name_en": "Sangkat Damrei Choan Khla",
+              "villages": []
+            },
+            {
+              "code": "060302",
+              "name_km": "សង្កាត់កំពង់ធំ",
+              "name_en": "Sangkat Kampong Thom",
+              "villages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "name_km": "ខេត្តកំពត",
+      "name_en": "Kampot",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "0708",
+          "name_km": "ក្រុងកំពត",
+          "name_en": "Krong Kampot",
+          "communes": [
+            {
+              "code": "070801",
+              "name_km": "សង្កាត់កំពង់កណ្តាល",
+              "name_en": "Sangkat Kampong Kandal",
+              "villages": []
+            },
+            {
+              "code": "070802",
+              "name_km": "សង្កាត់ក្រាំងអំពិល",
+              "name_en": "Sangkat Krang Ampil",
+              "villages": []
+            },
+            {
+              "code": "070803",
+              "name_km": "សង្កាត់កំពង់បាយ",
+              "name_en": "Sangkat Kampong Bay",
+              "villages": []
+            },
+            {
+              "code": "070804",
+              "name_km": "សង្កាត់អណ្តូងខ្មែរ",
+              "name_en": "Sangkat Andoung Khmaer",
+              "villages": []
+            },
+            {
+              "code": "070805",
+              "name_km": "សង្កាត់ត្រើយកោះ",
+              "name_en": "Sangkat Traeuy Koh",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "0701",
+          "name_km": "ស្រុកអង្គរជ័យ",
+          "name_en": "Angkor Chey",
+          "type": "District",
+          "communes": [
+            {
+              "code": "070101",
+              "name_km": "អង្គរជ័យ",
+              "name_en": "Angkor Chey",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "07010101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07010102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "070102",
+              "name_km": "ដំបូកខ្ពស់",
+              "name_en": "Dambouk Khpos",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "07010201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07010202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0702",
+          "name_km": "ស្រុកបន្ទាយមាស",
+          "name_en": "Banteay Meas",
+          "type": "District",
+          "communes": [
+            {
+              "code": "070201",
+              "name_km": "បន្ទាយមាសខាងកើត",
+              "name_en": "Banteay Meas Khang Kaeut",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "07020101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07020102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "070202",
+              "name_km": "ទូកមាសខាងលិច",
+              "name_en": "Touk Meas Khang Lech",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "07020201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07020202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0703",
+          "name_km": "ស្រុកឈូក",
+          "name_en": "Chhouk",
+          "type": "District",
+          "communes": [
+            {
+              "code": "070301",
+              "name_km": "ឈូក",
+              "name_en": "Chhouk",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "07030101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07030102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "070302",
+              "name_km": "តាកែន",
+              "name_en": "Ta Kaen",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "07030201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07030202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0704",
+          "name_km": "ស្រុកជុំគិរី",
+          "name_en": "Chum Kiri",
+          "type": "District",
+          "communes": [
+            {
+              "code": "070401",
+              "name_km": "ស្នាយអញ",
+              "name_en": "Snay Anh",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "07040101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07040102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "070402",
+              "name_km": "ស្រែចែង",
+              "name_en": "Sre Chaeng",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "07040201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07040202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0705",
+          "name_km": "ស្រុកដងទង់",
+          "name_en": "Dang Tong",
+          "type": "District",
+          "communes": [
+            {
+              "code": "070501",
+              "name_km": "ដងទង់",
+              "name_en": "Dang Tong",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "07050101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07050102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "070502",
+              "name_km": "មានរិទ្ធិ",
+              "name_en": "Mean Ritth",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "07050201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07050202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0706",
+          "name_km": "ស្រុកកំពង់ត្រាច",
+          "name_en": "Kampong Trach",
+          "type": "District",
+          "communes": [
+            {
+              "code": "070601",
+              "name_km": "កំពង់ត្រាចខាងកើត",
+              "name_en": "Kampong Trach Khang Kaeut",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "07060101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07060102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "070602",
+              "name_km": "ប្រាសាទភ្នំខ្យង",
+              "name_en": "Prasat Phnom Khyang",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "07060201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07060202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0707",
+          "name_km": "ក្រុងកំពត",
+          "name_en": "Krong Kampot",
+          "type": "Municipality",
+          "communes": [
+            {
+              "code": "070701",
+              "name_km": "សង្កាត់កំពង់កណ្តាល",
+              "name_en": "Sangkat Kampong Kandal",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "07070101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07070102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "070702",
+              "name_km": "សង្កាត់កំពង់បាយ",
+              "name_en": "Sangkat Kampong Bay",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "07070201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07070202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "070703",
+              "name_km": "សង្កាត់អណ្តូងខ្មែរ",
+              "name_en": "Sangkat Andoung Khmer",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "07070301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07070302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "0709",
+          "name_km": "ក្រុងបូកគោ",
+          "name_en": "Krong Bokor",
+          "type": "Municipality",
+          "communes": [
+            {
+              "code": "070901",
+              "name_km": "សង្កាត់បឹងទូក",
+              "name_en": "Sangkat Boeng Tuk",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "07090101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07090102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "070902",
+              "name_km": "សង្កាត់កោះតូច",
+              "name_en": "Sangkat Kaoh Touch",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "07090201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "07090202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "name_km": "ខេត្តកណ្តាល",
+      "name_en": "Kandal",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "0811",
+          "name_km": "ក្រុងតាខ្មៅ",
+          "name_en": "Krong Ta Khmau",
+          "communes": [
+            {
+              "code": "081101",
+              "name_km": "សង្កាត់តាខ្មៅ",
+              "name_en": "Sangkat Ta Khmau",
+              "villages": [
+                {
+                  "code": "08110101",
+                  "name_km": "ភូមិតាខ្មៅ",
+                  "name_en": "Phum Ta Khmau"
+                },
+                {
+                  "code": "08110102",
+                  "name_km": "ភូមិថ្មី",
+                  "name_en": "Phum Thmei"
+                }
+              ]
+            },
+            {
+              "code": "081102",
+              "name_km": "សង្កាត់ដើមមៀន",
+              "name_en": "Sangkat Daeum Mien",
+              "villages": [
+                {
+                  "code": "08110201",
+                  "name_km": "ភូមិព្រែកតាពៅ",
+                  "name_en": "Phum Prek Ta Pov"
+                },
+                {
+                  "code": "08110202",
+                  "name_km": "ភូមិដើមមៀន",
+                  "name_en": "Phum Daeum Mien"
+                }
+              ]
+            },
+            {
+              "code": "081103",
+              "name_km": "សង្កាត់កោះអន្លង់ចិន",
+              "name_en": "Sangkat Koh Anlong Chen",
+              "villages": []
+            },
+            {
+              "code": "081104",
+              "name_km": "សង្កាត់ព្រែកឫស្សី",
+              "name_en": "Sangkat Prek Ruessei",
+              "villages": []
+            },
+            {
+              "code": "081105",
+              "name_km": "សង្កាត់ព្រែកហូរ",
+              "name_en": "Sangkat Prek Ho",
+              "villages": []
+            },
+            {
+              "code": "081106",
+              "name_km": "សង្កាត់កំពង់សំណាញ់",
+              "name_en": "Sangkat Kampong Samnanh",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "0801",
+          "name_km": "ស្រុកកណ្តាលស្ទឹង",
+          "name_en": "Kandal Stueng",
+          "communes": [
+            {
+              "code": "080101",
+              "name_km": "ឃុំអន្លង់រមៀត",
+              "name_en": "Anlong Romiet",
+              "villages": []
+            },
+            {
+              "code": "080102",
+              "name_km": "ឃុំបារគូ",
+              "name_en": "Barku",
+              "villages": []
+            },
+            {
+              "code": "080103",
+              "name_km": "ឃុំបឹងខ្យាង",
+              "name_en": "Boeng Khyang",
+              "villages": []
+            },
+            {
+              "code": "080104",
+              "name_km": "ឃុំជើងកើប",
+              "name_en": "Cheung Kaeub",
+              "villages": []
+            },
+            {
+              "code": "080105",
+              "name_km": "ឃុំដើមឫស",
+              "name_en": "Daeum Rues",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "0802",
+          "name_km": "ស្រុកកៀនស្វាយ",
+          "name_en": "Kien Svay",
+          "communes": [
+            {
+              "code": "080201",
+              "name_km": "ឃុំបន្ទាយដែក",
+              "name_en": "Banteay Daek",
+              "villages": []
+            },
+            {
+              "code": "080202",
+              "name_km": "ឃុំឈើទាល",
+              "name_en": "Chhoeu Teal",
+              "villages": []
+            },
+            {
+              "code": "080203",
+              "name_km": "ឃុំដីឥដ្ឋ",
+              "name_en": "Dei Edth",
+              "villages": []
+            },
+            {
+              "code": "080204",
+              "name_km": "ឃុំកំពង់ស្វាយ",
+              "name_en": "Kampong Svay",
+              "villages": []
+            },
+            {
+              "code": "080205",
+              "name_km": "ឃុំគគីរ",
+              "name_en": "Kokir",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "0803",
+          "name_km": "ស្រុកខ្សាច់កណ្តាល",
+          "name_en": "Khsach Kandal",
+          "communes": [
+            {
+              "code": "080301",
+              "name_km": "ឃុំបាក់ដាវ",
+              "name_en": "Bak Dav",
+              "villages": []
+            },
+            {
+              "code": "080302",
+              "name_km": "ឃុំជ័យធំ",
+              "name_en": "Chey Thum",
+              "villages": []
+            },
+            {
+              "code": "080303",
+              "name_km": "ឃុំព្រែកអំពិល",
+              "name_en": "Prek Ampil",
+              "villages": []
+            },
+            {
+              "code": "080304",
+              "name_km": "ឃុំព្រែកលួង",
+              "name_en": "Prek Luong",
+              "villages": []
+            },
+            {
+              "code": "080305",
+              "name_km": "ឃុំព្រែកតាមាក់",
+              "name_en": "Prek Ta Meak",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "0804",
+          "name_km": "ស្រុកកោះធំ",
+          "name_en": "Koh Thom",
+          "communes": [
+            {
+              "code": "080401",
+              "name_km": "ឃុំឈើខ្មៅ",
+              "name_en": "Chhoeu Khmau",
+              "villages": []
+            },
+            {
+              "code": "080402",
+              "name_km": "ឃុំកំពង់កុង",
+              "name_en": "Kampong Kong",
+              "villages": []
+            },
+            {
+              "code": "080403",
+              "name_km": "ឃុំកោះធំ 'ក'",
+              "name_en": "Koh Thom Ka",
+              "villages": []
+            },
+            {
+              "code": "080404",
+              "name_km": "ឃុំកោះធំ 'ខ'",
+              "name_en": "Koh Thom Kha",
+              "villages": []
+            },
+            {
+              "code": "080405",
+              "name_km": "ឃុំលើកដែក",
+              "name_en": "Leuk Daek",
+              "villages": []
+            },
+            {
+              "code": "080406",
+              "name_km": "ឃុំព្រែកថ្មី",
+              "name_en": "Prek Thmei",
+              "villages": []
+            },
+            {
+              "code": "080407",
+              "name_km": "ឃុំសំពៅពូន",
+              "name_en": "Sampov Poun",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "0807",
+          "name_km": "ស្រុកស្អាង",
+          "name_en": "S'ang",
+          "communes": [
+            {
+              "code": "080701",
+              "name_km": "ឃុំខ្ពប",
+              "name_en": "Khpop",
+              "villages": []
+            },
+            {
+              "code": "080702",
+              "name_km": "ឃុំកោះខែល",
+              "name_en": "Koh Khael",
+              "villages": []
+            },
+            {
+              "code": "080703",
+              "name_km": "ឃុំកោះខ្សាច់ទន្លា",
+              "name_en": "Koh Khsach Tonlea",
+              "villages": []
+            },
+            {
+              "code": "080704",
+              "name_km": "ឃុំក្រាំងយ៉ូវ",
+              "name_en": "Krang Yov",
+              "villages": []
+            },
+            {
+              "code": "080705",
+              "name_km": "ឃុំប្រាសាទ",
+              "name_en": "Prasat",
+              "villages": []
+            },
+            {
+              "code": "080706",
+              "name_km": "ឃុំព្រែកអំបិល",
+              "name_en": "Prek Ambel",
+              "villages": []
+            },
+            {
+              "code": "080707",
+              "name_km": "ឃុំព្រែកគយ",
+              "name_en": "Prek Koy",
+              "villages": []
+            },
+            {
+              "code": "080708",
+              "name_km": "ឃុំស្អាងភ្នំ",
+              "name_en": "S'ang Phnum",
+              "villages": []
+            },
+            {
+              "code": "080709",
+              "name_km": "ឃុំទឹកវិល",
+              "name_en": "Tuek Vil",
+              "villages": []
+            },
+            {
+              "code": "080710",
+              "name_km": "ឃុំត្រើយស្លា",
+              "name_en": "Traeuy Sla",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "0808",
+          "name_km": "ស្រុកអង្គស្នួល",
+          "name_en": "Angk Snuol",
+          "communes": [
+            {
+              "code": "080801",
+              "name_km": "ឃុំបែកចាន",
+              "name_en": "Baek Chan",
+              "villages": []
+            },
+            {
+              "code": "080802",
+              "name_km": "ឃុំឆក់ឈើនាង",
+              "name_en": "Chhak Chhoeu Neang",
+              "villages": []
+            },
+            {
+              "code": "080803",
+              "name_km": "ឃុំដំរ៉ាក់ពពូល",
+              "name_en": "Damnak Pompul",
+              "villages": []
+            },
+            {
+              "code": "080804",
+              "name_km": "ឃុំលំហាច",
+              "name_en": "Lumhach",
+              "villages": []
+            },
+            {
+              "code": "080805",
+              "name_km": "ឃុំម្កាក់",
+              "name_en": "Mkak",
+              "villages": []
+            },
+            {
+              "code": "080806",
+              "name_km": "ឃុំពើក",
+              "name_en": "Peurk",
+              "villages": []
+            },
+            {
+              "code": "080807",
+              "name_km": "ឃុំព្រៃពួច",
+              "name_en": "Prey Puoch",
+              "villages": []
+            },
+            {
+              "code": "080808",
+              "name_km": "ឃុំសំរោងលើ",
+              "name_en": "Samraong Leu",
+              "villages": []
+            },
+            {
+              "code": "080809",
+              "name_km": "ឃុំទួលព្រិច",
+              "name_en": "Tuol Prech",
+              "villages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "name_km": "ខេត្តកោះកុង",
+      "name_en": "Koh Kong",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "0904",
+          "name_km": "ក្រុងខេមរភូមិន្ទ",
+          "name_en": "Krong Khemara Phoumin",
+          "communes": [
+            {
+              "code": "090401",
+              "name_km": "សង្កាត់ស្មាច់ដែង",
+              "name_en": "Sangkat Smach Daeng",
+              "villages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "name_km": "ខេត្តក្រចេះ",
+      "name_en": "Kratie",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "1002",
+          "name_km": "ក្រុងក្រចេះ",
+          "name_en": "Krong Kratie",
+          "communes": [
+            {
+              "code": "100201",
+              "name_km": "សង្កាត់ក្រចេះ",
+              "name_en": "Sangkat Kratie",
+              "villages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "name_km": "ខេត្តមណ្ឌលគិរី",
+      "name_en": "Mondulkiri",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "1105",
+          "name_km": "ក្រុងសែនមនោរម្យ",
+          "name_en": "Krong Sen Monorom",
+          "communes": [
+            {
+              "code": "110501",
+              "name_km": "សង្កាត់មនោរម្យ",
+              "name_en": "Sangkat Monorom",
+              "villages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
       "code": "12",
       "name_km": "រាជធានីភ្នំពេញ",
       "name_en": "Phnom Penh",
@@ -717,360 +3899,1015 @@
       ]
     },
     {
-      "code": "08",
-      "name_km": "ខេត្តកណ្តាល",
-      "name_en": "Kandal",
+      "code": "13",
+      "name_km": "ខេត្តព្រះវិហារ",
+      "name_en": "Preah Vihear",
       "type": "Province",
       "districts": [
         {
-          "code": "0811",
-          "name_km": "ក្រុងតាខ្មៅ",
-          "name_en": "Krong Ta Khmau",
+          "code": "1308",
+          "name_km": "ក្រុងត្បែងមានជ័យ",
+          "name_en": "Krong Tbeng Meanchey",
           "communes": [
             {
-              "code": "081101",
-              "name_km": "សង្កាត់តាខ្មៅ",
-              "name_en": "Sangkat Ta Khmau",
+              "code": "130801",
+              "name_km": "សង្កាត់កំពង់ប្រណាក",
+              "name_en": "Sangkat Kampong Pranak",
+              "villages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "name_km": "ខេត្តព្រៃវែង",
+      "name_en": "Prey Veng",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "1401",
+          "name_km": "ស្រុកបាភ្នំ",
+          "name_en": "Ba Phnum",
+          "type": "District",
+          "communes": [
+            {
+              "code": "140101",
+              "name_km": "ឃុំបឹងព្រះ",
+              "name_en": "Boeng Preah",
+              "type": "Commune",
               "villages": [
                 {
-                  "code": "08110101",
-                  "name_km": "ភូមិតាខ្មៅ",
-                  "name_en": "Phum Ta Khmau"
+                  "code": "14010101",
+                  "name_km": "ភូមិបឹងព្រះ",
+                  "name_en": "Phum Boeng Preah"
                 },
                 {
-                  "code": "08110102",
-                  "name_km": "ភូមិថ្មី",
-                  "name_en": "Phum Thmei"
+                  "code": "14010102",
+                  "name_km": "ភូមិប្រស្រែ",
+                  "name_en": "Phum Prasre"
                 }
               ]
             },
             {
-              "code": "081102",
-              "name_km": "សង្កាត់ដើមមៀន",
-              "name_en": "Sangkat Daeum Mien",
+              "code": "140102",
+              "name_km": "ឃុំជើងភ្នំ",
+              "name_en": "Cheung Phnum",
+              "type": "Commune",
               "villages": [
                 {
-                  "code": "08110201",
-                  "name_km": "ភូមិព្រែកតាពៅ",
-                  "name_en": "Phum Prek Ta Pov"
+                  "code": "14010201",
+                  "name_km": "ភូមិជើងភ្នំ",
+                  "name_en": "Phum Cheung Phnum"
                 },
                 {
-                  "code": "08110202",
-                  "name_km": "ភូមិដើមមៀន",
-                  "name_en": "Phum Daeum Mien"
+                  "code": "14010202",
+                  "name_km": "ភូមិពោធិ៍",
+                  "name_en": "Phum Pou"
                 }
               ]
             },
             {
-              "code": "081103",
-              "name_km": "សង្កាត់កោះអន្លង់ចិន",
-              "name_en": "Sangkat Koh Anlong Chen",
+              "code": "140103",
+              "name_km": "ឃុំឈើកាច់",
+              "name_en": "Chheu Kach",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "14010301",
+                  "name_km": "ភូមិឈើកាច់",
+                  "name_en": "Phum Chheu Kach"
+                },
+                {
+                  "code": "14010302",
+                  "name_km": "ភូមិក្បាលដំរី",
+                  "name_en": "Phum Kbal Damrei"
+                }
+              ]
+            },
+            {
+              "code": "140104",
+              "name_km": "ឃុំរក្សជ័យ",
+              "name_en": "Reaks Chey",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "14010401",
+                  "name_km": "ភូមិរក្សជ័យ",
+                  "name_en": "Phum Reaks Chey"
+                }
+              ]
+            },
+            {
+              "code": "140105",
+              "name_km": "ឃុំរោងដំរី",
+              "name_en": "Roung Damrei",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "14010501",
+                  "name_km": "ភូមិរោងដំរី",
+                  "name_en": "Phum Roung Damrei"
+                }
+              ]
+            },
+            {
+              "code": "140106",
+              "name_km": "ឃុំស្តេចគង់ខាងជើង",
+              "name_en": "Sdach Kong Khang Cheung",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "081104",
-              "name_km": "សង្កាត់ព្រែកឫស្សី",
-              "name_en": "Sangkat Prek Ruessei",
+              "code": "140107",
+              "name_km": "ឃុំស្តេចគង់ខាងត្បូង",
+              "name_en": "Sdach Kong Khang Tboung",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "081105",
-              "name_km": "សង្កាត់ព្រែកហូរ",
-              "name_en": "Sangkat Prek Ho",
+              "code": "140108",
+              "name_km": "ឃុំស្ពឺ ក",
+              "name_en": "Spueu Ka",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "081106",
-              "name_km": "សង្កាត់កំពង់សំណាញ់",
-              "name_en": "Sangkat Kampong Samnanh",
+              "code": "140109",
+              "name_km": "ឃុំស្ពឺ ខ",
+              "name_en": "Spueu Kha",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140110",
+              "name_km": "ឃុំធ្យូង",
+              "name_en": "Theay",
+              "type": "Commune",
               "villages": []
             }
           ]
         },
         {
-          "code": "0801",
-          "name_km": "ស្រុកកណ្តាលស្ទឹង",
-          "name_en": "Kandal Stueng",
+          "code": "1402",
+          "name_km": "ស្រុកកំចាយមារ",
+          "name_en": "Kamchay Mear",
+          "type": "District",
           "communes": [
             {
-              "code": "080101",
-              "name_km": "ឃុំអន្លង់រមៀត",
-              "name_en": "Anlong Romiet",
+              "code": "140201",
+              "name_km": "ឃុំជាច",
+              "name_en": "Cheach",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "14020101",
+                  "name_km": "ភូមិជាច",
+                  "name_en": "Phum Cheach"
+                }
+              ]
+            },
+            {
+              "code": "140202",
+              "name_km": "ឃុំដូនកឹង",
+              "name_en": "Doun Koeng",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080102",
-              "name_km": "ឃុំបារគូ",
-              "name_en": "Barku",
+              "code": "140203",
+              "name_km": "ឃុំក្រញូង",
+              "name_en": "Kranhung",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080103",
-              "name_km": "ឃុំបឹងខ្យាង",
-              "name_en": "Boeng Khyang",
+              "code": "140204",
+              "name_km": "ឃុំក្របៅ",
+              "name_en": "Krabao",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080104",
-              "name_km": "ឃុំជើងកើប",
-              "name_en": "Cheung Kaeub",
+              "code": "140205",
+              "name_km": "ឃុំស៊ាងឃ្វាង",
+              "name_en": "Seang Khveang",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080105",
-              "name_km": "ឃុំដើមឫស",
-              "name_en": "Daeum Rues",
+              "code": "140206",
+              "name_km": "ឃុំស្មោងខាងជើង",
+              "name_en": "Smaong Khang Cheung",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140207",
+              "name_km": "ឃុំស្មោងខាងត្បូង",
+              "name_en": "Smaong Khang Tboung",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140208",
+              "name_km": "ឃុំត្របែក",
+              "name_en": "Trabaek",
+              "type": "Commune",
               "villages": []
             }
           ]
         },
         {
-          "code": "0802",
-          "name_km": "ស្រុកកៀនស្វាយ",
-          "name_en": "Kien Svay",
+          "code": "1403",
+          "name_km": "ស្រុកកំពង់ត្របែក",
+          "name_en": "Kampong Trabaek",
+          "type": "District",
           "communes": [
             {
-              "code": "080201",
-              "name_km": "ឃុំបន្ទាយដែក",
-              "name_en": "Banteay Daek",
+              "code": "140301",
+              "name_km": "ឃុំអន្សោង",
+              "name_en": "Ansaong",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080202",
-              "name_km": "ឃុំឈើទាល",
-              "name_en": "Chhoeu Teal",
+              "code": "140302",
+              "name_km": "ឃុំចំរើន",
+              "name_en": "Chamroeun",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080203",
-              "name_km": "ឃុំដីឥដ្ឋ",
-              "name_en": "Dei Edth",
+              "code": "140303",
+              "name_km": "ឃុំឈើភ្លើង",
+              "name_en": "Chheu Phloeng",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080204",
-              "name_km": "ឃុំកំពង់ស្វាយ",
-              "name_en": "Kampong Svay",
+              "code": "140304",
+              "name_km": "ឃុំកំពង់ត្របែក",
+              "name_en": "Kampong Trabaek",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "14030401",
+                  "name_km": "ភូមិកំពង់ត្របែក",
+                  "name_en": "Phum Kampong Trabaek"
+                }
+              ]
+            },
+            {
+              "code": "140305",
+              "name_km": "ឃុំកញ្ចំ",
+              "name_en": "Kanhcham",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080205",
-              "name_km": "ឃុំគគីរ",
-              "name_en": "Kokir",
-              "villages": []
-            }
-          ]
-        },
-        {
-          "code": "0803",
-          "name_km": "ស្រុកខ្សាច់កណ្តាល",
-          "name_en": "Khsach Kandal",
-          "communes": [
-            {
-              "code": "080301",
-              "name_km": "ឃុំបាក់ដាវ",
-              "name_en": "Bak Dav",
+              "code": "140306",
+              "name_km": "ឃុំកោះចេក",
+              "name_en": "Kaoh Chek",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080302",
-              "name_km": "ឃុំជ័យធំ",
-              "name_en": "Chey Thum",
+              "code": "140307",
+              "name_km": "ឃុំកូវប្រាសាទ",
+              "name_en": "Kouvr Prasat",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080303",
-              "name_km": "ឃុំព្រែកអំពិល",
-              "name_en": "Prek Ampil",
+              "code": "140308",
+              "name_km": "ឃុំពាមមន្ទារ",
+              "name_en": "Peam Montear",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080304",
-              "name_km": "ឃុំព្រែកលួង",
-              "name_en": "Prek Luong",
-              "villages": []
-            },
-            {
-              "code": "080305",
-              "name_km": "ឃុំព្រែកតាមាក់",
-              "name_en": "Prek Ta Meak",
-              "villages": []
-            }
-          ]
-        },
-        {
-          "code": "0804",
-          "name_km": "ស្រុកកោះធំ",
-          "name_en": "Koh Thom",
-          "communes": [
-            {
-              "code": "080401",
-              "name_km": "ឃុំឈើខ្មៅ",
-              "name_en": "Chhoeu Khmau",
-              "villages": []
-            },
-            {
-              "code": "080402",
-              "name_km": "ឃុំកំពង់កុង",
-              "name_en": "Kampong Kong",
-              "villages": []
-            },
-            {
-              "code": "080403",
-              "name_km": "ឃុំកោះធំ 'ក'",
-              "name_en": "Koh Thom Ka",
-              "villages": []
-            },
-            {
-              "code": "080404",
-              "name_km": "ឃុំកោះធំ 'ខ'",
-              "name_en": "Koh Thom Kha",
-              "villages": []
-            },
-            {
-              "code": "080405",
-              "name_km": "ឃុំលើកដែក",
-              "name_en": "Leuk Daek",
-              "villages": []
-            },
-            {
-              "code": "080406",
-              "name_km": "ឃុំព្រែកថ្មី",
-              "name_en": "Prek Thmei",
-              "villages": []
-            },
-            {
-              "code": "080407",
-              "name_km": "ឃុំសំពៅពូន",
-              "name_en": "Sampov Poun",
-              "villages": []
-            }
-          ]
-        },
-        {
-          "code": "0807",
-          "name_km": "ស្រុកស្អាង",
-          "name_en": "S'ang",
-          "communes": [
-            {
-              "code": "080701",
-              "name_km": "ឃុំខ្ពប",
-              "name_en": "Khpop",
-              "villages": []
-            },
-            {
-              "code": "080702",
-              "name_km": "ឃុំកោះខែល",
-              "name_en": "Koh Khael",
-              "villages": []
-            },
-            {
-              "code": "080703",
-              "name_km": "ឃុំកោះខ្សាច់ទន្លា",
-              "name_en": "Koh Khsach Tonlea",
-              "villages": []
-            },
-            {
-              "code": "080704",
-              "name_km": "ឃុំក្រាំងយ៉ូវ",
-              "name_en": "Krang Yov",
-              "villages": []
-            },
-            {
-              "code": "080705",
+              "code": "140309",
               "name_km": "ឃុំប្រាសាទ",
               "name_en": "Prasat",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080706",
-              "name_km": "ឃុំព្រែកអំបិល",
-              "name_en": "Prek Ambel",
+              "code": "140310",
+              "name_km": "ឃុំប្រធាតុ",
+              "name_en": "Prathat",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080707",
-              "name_km": "ឃុំព្រែកគយ",
-              "name_en": "Prek Koy",
+              "code": "140311",
+              "name_km": "ឃុំព្រៃឈរ",
+              "name_en": "Prey Chhor",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080708",
-              "name_km": "ឃុំស្អាងភ្នំ",
-              "name_en": "S'ang Phnum",
+              "code": "140312",
+              "name_km": "ឃុំព្រៃពោន",
+              "name_en": "Prey Poun",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080709",
-              "name_km": "ឃុំទឹកវិល",
-              "name_en": "Tuek Vil",
-              "villages": []
-            },
-            {
-              "code": "080710",
-              "name_km": "ឃុំត្រើយស្លា",
-              "name_en": "Traeuy Sla",
+              "code": "140313",
+              "name_km": "ឃុំថ្កូវ",
+              "name_en": "Thkov",
+              "type": "Commune",
               "villages": []
             }
           ]
         },
         {
-          "code": "0808",
-          "name_km": "ស្រុកអង្គស្នួល",
-          "name_en": "Angk Snuol",
+          "code": "1404",
+          "name_km": "ស្រុកកញ្ជ្រៀច",
+          "name_en": "Kanhchriech",
+          "type": "District",
           "communes": [
             {
-              "code": "080801",
-              "name_km": "ឃុំបែកចាន",
-              "name_en": "Baek Chan",
+              "code": "140401",
+              "name_km": "ឃុំចុងអំពិល",
+              "name_en": "Chong Ampil",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080802",
-              "name_km": "ឃុំឆក់ឈើនាង",
-              "name_en": "Chhak Chhoeu Neang",
+              "code": "140402",
+              "name_km": "ឃុំកញ្ជ្រៀច",
+              "name_en": "Kanhchriech",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080803",
-              "name_km": "ឃុំដំរ៉ាក់ពពូល",
-              "name_en": "Damnak Pompul",
+              "code": "140403",
+              "name_km": "ឃុំក្តឿងរាយ",
+              "name_en": "Kdoeang Reay",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080804",
-              "name_km": "ឃុំលំហាច",
-              "name_en": "Lumhach",
+              "code": "140404",
+              "name_km": "ឃុំគោកគង់កើត",
+              "name_en": "Kouk Kong Kaeut",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080805",
-              "name_km": "ឃុំម្កាក់",
-              "name_en": "Mkak",
+              "code": "140405",
+              "name_km": "ឃុំគោកគង់លិច",
+              "name_en": "Kouk Kong Lech",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080806",
-              "name_km": "ឃុំពើក",
-              "name_en": "Peurk",
+              "code": "140406",
+              "name_km": "ឃុំព្រាល",
+              "name_en": "Preal",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080807",
-              "name_km": "ឃុំព្រៃពួច",
-              "name_en": "Prey Puoch",
+              "code": "140407",
+              "name_km": "ឃុំថ្មពូន",
+              "name_en": "Thma Poun",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080808",
-              "name_km": "ឃុំសំរោងលើ",
-              "name_en": "Samraong Leu",
+              "code": "140408",
+              "name_km": "ឃុំត្នោត",
+              "name_en": "Tnaot",
+              "type": "Commune",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "1405",
+          "name_km": "ស្រុកមេសាង",
+          "name_en": "Me Sang",
+          "type": "District",
+          "communes": [
+            {
+              "code": "140501",
+              "name_km": "ឃុំអង្គរសារ",
+              "name_en": "Angkor Sar",
+              "type": "Commune",
               "villages": []
             },
             {
-              "code": "080809",
-              "name_km": "ឃុំទួលព្រិច",
-              "name_en": "Tuol Prech",
+              "code": "140502",
+              "name_km": "ឃុំច្រេស",
+              "name_en": "Chres",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140503",
+              "name_km": "ឃុំជីផុច",
+              "name_en": "Chi Phoch",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140504",
+              "name_km": "ឃុំព្រៃឃ្នេស",
+              "name_en": "Prey Khnes",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140505",
+              "name_km": "ឃុំព្រៃរំដេង",
+              "name_en": "Prey Rumdeng",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140506",
+              "name_km": "ឃុំព្រៃទទឹង",
+              "name_en": "Prey Totueng",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140507",
+              "name_km": "ឃុំស្វាយជ្រុំ",
+              "name_en": "Svay Chrum",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140508",
+              "name_km": "ឃុំត្រពាំងស្រែ",
+              "name_en": "Trapeang Sre",
+              "type": "Commune",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "1406",
+          "name_km": "ស្រុកពាមជរ",
+          "name_en": "Peam Chor",
+          "type": "District",
+          "communes": [
+            {
+              "code": "140601",
+              "name_km": "ឃុំអង្គរអង្គ",
+              "name_en": "Angkor Angk",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140602",
+              "name_km": "ឃុំកំពង់ប្រាសាទ",
+              "name_en": "Kampong Prasat",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140603",
+              "name_km": "ឃុំកោះចេក",
+              "name_en": "Kaoh Chek",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140604",
+              "name_km": "ឃុំកោះរកា",
+              "name_en": "Kaoh Roka",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140605",
+              "name_km": "ឃុំកោះសំពៅ",
+              "name_en": "Kaoh Sampov",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140606",
+              "name_km": "ឃុំក្រាំងតាយ៉ង",
+              "name_en": "Krang Ta Yang",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140607",
+              "name_km": "ឃុំព្រែកក្របៅ",
+              "name_en": "Prek Krabao",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140608",
+              "name_km": "ឃុំព្រែកសំបួរ",
+              "name_en": "Prek Sambuor",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140609",
+              "name_km": "ឃុំឫស្សីស្រុក",
+              "name_en": "Ruessei Srok",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140610",
+              "name_km": "ឃុំស្វាយភ្លោះ",
+              "name_en": "Svay Phluoh",
+              "type": "Commune",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "1407",
+          "name_km": "ស្រុកពាមរអ៍",
+          "name_en": "Peam Ro",
+          "type": "District",
+          "communes": [
+            {
+              "code": "140701",
+              "name_km": "ឃុំបាបោង",
+              "name_en": "Ba Baong",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140702",
+              "name_km": "ឃុំបន្លិចប្រាសាទ",
+              "name_en": "Banlich Prasat",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140703",
+              "name_km": "ឃុំអ្នកលឿង",
+              "name_en": "Neak Loeang",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "14070301",
+                  "name_km": "ភូមិអ្នកលឿង",
+                  "name_en": "Phum Neak Loeang"
+                },
+                {
+                  "code": "14070302",
+                  "name_km": "ភូមិស្ទឹងស្លូត",
+                  "name_en": "Phum Steung Slot"
+                }
+              ]
+            },
+            {
+              "code": "140704",
+              "name_km": "ឃុំពាមមានជ័យ",
+              "name_en": "Peam Mean Chey",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140705",
+              "name_km": "ឃុំពាមរអ៍",
+              "name_en": "Peam Ro",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "14070501",
+                  "name_km": "ភូមិពាមរអ៍",
+                  "name_en": "Phum Peam Ro"
+                }
+              ]
+            },
+            {
+              "code": "140706",
+              "name_km": "ឃុំព្រែកខ្សាច់",
+              "name_en": "Prek Khsach",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140707",
+              "name_km": "ឃុំព្រែកតាទែន",
+              "name_en": "Prek Ta Ten",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140708",
+              "name_km": "ឃុំព្រៃកណ្តៀង",
+              "name_en": "Prey Kandieng",
+              "type": "Commune",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "1408",
+          "name_km": "ស្រុកពារាំង",
+          "name_en": "Pea Reang",
+          "type": "District",
+          "communes": [
+            {
+              "code": "140801",
+              "name_km": "ឃុំកំពង់ពពិល",
+              "name_en": "Kampong Popil",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140802",
+              "name_km": "ឃុំកញ្ចំ",
+              "name_en": "Kanhcham",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140803",
+              "name_km": "ឃុំមេសរប្រច័ន្ទ",
+              "name_en": "Me Sar Prachan",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140804",
+              "name_km": "ឃុំព្រែកព្នៅ",
+              "name_en": "Prek Pnov",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140805",
+              "name_km": "ឃុំព្រែកតាឡុង",
+              "name_en": "Prek Ta Long",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140806",
+              "name_km": "ឃុំរាប",
+              "name_en": "Reab",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140807",
+              "name_km": "ឃុំរកា",
+              "name_en": "Roka",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "140808",
+              "name_km": "ឃុំស្វាយពោធិ៍",
+              "name_en": "Svay Pou",
+              "type": "Commune",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "1409",
+          "name_km": "ក្រុងព្រៃវែង",
+          "name_en": "Krong Prey Veng",
+          "type": "Municipality",
+          "communes": [
+            {
+              "code": "140901",
+              "name_km": "សង្កាត់បារាយណ៍",
+              "name_en": "Sangkat Baray",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "14090101",
+                  "name_km": "ភូមិបារាយណ៍កើត",
+                  "name_en": "Phum Baray Kaeut"
+                },
+                {
+                  "code": "14090102",
+                  "name_km": "ភូមិបារាយណ៍លិច",
+                  "name_en": "Phum Baray Lech"
+                }
+              ]
+            },
+            {
+              "code": "140902",
+              "name_km": "សង្កាត់ជើងទឹក",
+              "name_en": "Sangkat Cheung Tuek",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "14090201",
+                  "name_km": "ភូមិជើងទឹក",
+                  "name_en": "Phum Cheung Tuek"
+                }
+              ]
+            },
+            {
+              "code": "140903",
+              "name_km": "សង្កាត់កំពង់លាវ",
+              "name_en": "Sangkat Kampong Leav",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "14090301",
+                  "name_km": "ភូមិកំពង់លាវ",
+                  "name_en": "Phum Kampong Leav"
+                },
+                {
+                  "code": "14090302",
+                  "name_km": "ភូមិស្វាយប៉ាក",
+                  "name_en": "Phum Svay Pak"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1410",
+          "name_km": "ស្រុកពោធិ៍រៀង",
+          "name_en": "Pur Rieng",
+          "type": "District",
+          "communes": [
+            {
+              "code": "141001",
+              "name_km": "ឃុំពោធិ៍រៀង",
+              "name_en": "Pur Rieng",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141002",
+              "name_km": "ឃុំព្រែកអន្ទាក់",
+              "name_en": "Prek Antak",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141003",
+              "name_km": "ឃុំព្រែកជ្រៃ",
+              "name_en": "Prek Chrey",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141004",
+              "name_km": "ឃុំព្រៃកន្លោង",
+              "name_en": "Prey Kanlaong",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141005",
+              "name_km": "ឃុំតាសាល",
+              "name_en": "Ta Sal",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141006",
+              "name_km": "ឃុំកំពង់ឫស្សី",
+              "name_en": "Kampong Ruessei",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141007",
+              "name_km": "ឃុំមេបុណ្យ",
+              "name_en": "Me Bon",
+              "type": "Commune",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "1411",
+          "name_km": "ស្រុកស៊ីធរកណ្តាល",
+          "name_en": "Sithor Kandal",
+          "type": "District",
+          "communes": [
+            {
+              "code": "141101",
+              "name_km": "ឃុំអំពិលក្រៅ",
+              "name_en": "Ampil Krao",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141102",
+              "name_km": "ឃុំជ្រៃឃ្មុំ",
+              "name_en": "Chrey Khmum",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141103",
+              "name_km": "ឃុំល្វា",
+              "name_en": "Lvea",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141104",
+              "name_km": "ឃុំព្នៅទី១",
+              "name_en": "Pnov Ti Muoy",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141105",
+              "name_km": "ឃុំព្នៅទី២",
+              "name_en": "Pnov Ti Pir",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141106",
+              "name_km": "ឃុំពោធិ៍ទី",
+              "name_en": "Pou Ti",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141107",
+              "name_km": "ឃុំព្រែកចង្ក្រាន",
+              "name_en": "Prek Changkran",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141108",
+              "name_km": "ឃុំព្រៃទំពូង",
+              "name_en": "Prey Tumpung",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141109",
+              "name_km": "ឃុំរំលេច",
+              "name_en": "Rumlech",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141110",
+              "name_km": "ឃុំឫស្សីសាញ់",
+              "name_en": "Ruessei Sanh",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141111",
+              "name_km": "ឃុំវាល",
+              "name_en": "Veal",
+              "type": "Commune",
+              "villages": []
+            }
+          ]
+        },
+        {
+          "code": "1412",
+          "name_km": "ស្រុកស្វាយអន្ធរ",
+          "name_en": "Svay Antor",
+          "type": "District",
+          "communes": [
+            {
+              "code": "141201",
+              "name_km": "ឃុំអង្គរទ្រព្យ",
+              "name_en": "Angkor Troup",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141202",
+              "name_km": "ឃុំជាខ្លាង",
+              "name_en": "Chea Khlang",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141203",
+              "name_km": "ឃុំជ្រៃ",
+              "name_en": "Chrey",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141204",
+              "name_km": "ឃុំដំរីពួន",
+              "name_en": "Damrei Poun",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141205",
+              "name_km": "ឃុំមេព្រីង",
+              "name_en": "Me Pring",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141206",
+              "name_km": "ឃុំពានរោង",
+              "name_en": "Pean Roung",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141207",
+              "name_km": "ឃុំពពឺស",
+              "name_en": "Popues",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141208",
+              "name_km": "ឃុំព្រៃខ្លា",
+              "name_en": "Prey Khla",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141209",
+              "name_km": "ឃុំស្វាយអន្ធរ",
+              "name_en": "Svay Antor",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "14120901",
+                  "name_km": "ភូមិស្វាយអន្ធរ",
+                  "name_en": "Phum Svay Antor"
+                }
+              ]
+            },
+            {
+              "code": "141210",
+              "name_km": "ឃុំទឹកថ្លា",
+              "name_en": "Tuek Thla",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141211",
+              "name_km": "ឃុំព្រៃទទឹង",
+              "name_en": "Prey Totueng",
+              "type": "Commune",
+              "villages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "name_km": "ខេត្តពោធិ៍សាត់",
+      "name_en": "Pursat",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "1505",
+          "name_km": "ក្រុងពោធិ៍សាត់",
+          "name_en": "Krong Pursat",
+          "communes": [
+            {
+              "code": "150501",
+              "name_km": "សង្កាត់ផ្ទះព្រៃ",
+              "name_en": "Sangkat Phteah Prey",
+              "villages": []
+            },
+            {
+              "code": "150502",
+              "name_km": "សង្កាត់ព្រៃញី",
+              "name_en": "Sangkat Prey Nhy",
+              "villages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "name_km": "ខេត្តរតនគិរី",
+      "name_en": "Ratanakiri",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "1601",
+          "name_km": "ក្រុងបានលុង",
+          "name_en": "Krong Banlung",
+          "communes": [
+            {
+              "code": "160101",
+              "name_km": "សង្កាត់ឡាបានសៀក",
+              "name_en": "Sangkat Labansiek",
               "villages": []
             }
           ]
@@ -1222,115 +5059,534 @@
               "villages": []
             }
           ]
-        }
-      ]
-    },
-    {
-      "code": "02",
-      "name_km": "ខេត្តបាត់ដំបង",
-      "name_en": "Battambang",
-      "type": "Province",
-      "districts": [
+        },
         {
-          "code": "0203",
-          "name_km": "ក្រុងបាត់ដំបង",
-          "name_en": "Krong Battambang",
+          "code": "1701",
+          "name_km": "ស្រុកអង្គរជុំ",
+          "name_en": "Angkor Chum",
+          "type": "District",
           "communes": [
             {
-              "code": "020301",
-              "name_km": "សង្កាត់ទួលតាឯក",
-              "name_en": "Sangkat Tuol Ta Aek",
-              "villages": []
+              "code": "170101",
+              "name_km": "ចារឈូក",
+              "name_en": "Char Chhuk",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17010101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17010102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             },
             {
-              "code": "020302",
-              "name_km": "សង្កាត់ព្រែកព្រះស្តេច",
-              "name_en": "Sangkat Prek Preah Sdach",
-              "villages": []
+              "code": "170102",
+              "name_km": "ដូនប៉េង",
+              "name_en": "Doun Peng",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17010201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17010202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             },
             {
-              "code": "020303",
-              "name_km": "សង្កាត់រតនៈ",
-              "name_en": "Sangkat Ratanak",
-              "villages": []
-            },
-            {
-              "code": "020304",
-              "name_km": "សង្កាត់ចំការសំរោង",
-              "name_en": "Sangkat Chamkar Samraong",
-              "villages": []
-            },
-            {
-              "code": "020305",
-              "name_km": "សង្កាត់ស្លាកែត",
-              "name_en": "Sangkat Sla Kaet",
-              "villages": []
-            },
-            {
-              "code": "020306",
-              "name_km": "សង្កាត់ក្តុលដូនទាវ",
-              "name_en": "Sangkat Kdol Doun Teav",
-              "villages": []
-            },
-            {
-              "code": "020307",
-              "name_km": "សង្កាត់អូម៉ាល់",
-              "name_en": "Sangkat Ou Mal",
-              "villages": []
-            },
-            {
-              "code": "020308",
-              "name_km": "សង្កាត់វត្តគរ",
-              "name_en": "Sangkat Voat Kor",
-              "villages": []
-            },
-            {
-              "code": "020309",
-              "name_km": "សង្កាត់អូរចារ",
-              "name_en": "Sangkat Ou Char",
-              "villages": []
-            },
-            {
-              "code": "020310",
-              "name_km": "សង្កាត់ស្វាយប៉ោ",
-              "name_en": "Sangkat Svay Pao",
-              "villages": []
+              "code": "170103",
+              "name_km": "គោកដូង",
+              "name_en": "Kouk Doung",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17010301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17010302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             }
           ]
         },
         {
-          "code": "0208",
-          "name_km": "ស្រុកសង្កែ",
-          "name_en": "Sangkae",
+          "code": "1703",
+          "name_km": "ស្រុកបន្ទាយស្រី",
+          "name_en": "Banteay Srei",
+          "type": "District",
           "communes": [
             {
-              "code": "020801",
-              "name_km": "ឃុំអន្លង់វិល",
-              "name_en": "Anlong Vil",
+              "code": "170301",
+              "name_km": "ព្រះដាក់",
+              "name_en": "Preah Dak",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17030101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17030102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "170302",
+              "name_km": "រុនតាឯក",
+              "name_en": "Run Ta Ek",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17030201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17030202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "170303",
+              "name_km": "ឃុនរាម",
+              "name_en": "Khun Ream",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17030301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17030302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1704",
+          "name_km": "ស្រុកជីក្រែង",
+          "name_en": "Chi Kraeng",
+          "type": "District",
+          "communes": [
+            {
+              "code": "170401",
+              "name_km": "កំពង់ក្តី",
+              "name_en": "Kampong Kdei",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17040101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17040102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "170402",
+              "name_km": "ជីក្រែង",
+              "name_en": "Chi Kraeng",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17040201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17040202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "170403",
+              "name_km": "ល្វែងឫស្សី",
+              "name_en": "Lveaeng Ruessei",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17040301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17040302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1706",
+          "name_km": "ស្រុកក្រឡាញ់",
+          "name_en": "Kralanh",
+          "type": "District",
+          "communes": [
+            {
+              "code": "170601",
+              "name_km": "ក្រឡាញ់",
+              "name_en": "Kralanh",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17060101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17060102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "170602",
+              "name_km": "ស្រណាល",
+              "name_en": "Sranal",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17060201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17060202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1709",
+          "name_km": "ស្រុកប្រាសាទបាគង",
+          "name_en": "Prasat Bakong",
+          "type": "District",
+          "communes": [
+            {
+              "code": "170901",
+              "name_km": "បាគង",
+              "name_en": "Bakong",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17090101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17090102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "170902",
+              "name_km": "រលួស",
+              "name_en": "Roluos",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17090201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17090202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "170903",
+              "name_km": "ត្រពាំងធំ",
+              "name_en": "Trapeang Thum",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17090301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17090302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1711",
+          "name_km": "ស្រុកសូទ្រនិគម",
+          "name_en": "Soutr Nikom",
+          "type": "District",
+          "communes": [
+            {
+              "code": "171101",
+              "name_km": "ដំដែក",
+              "name_en": "Dam Daek",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17110101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17110102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "171102",
+              "name_km": "កំពង់ឃ្លាំង",
+              "name_en": "Kampong Khleang",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17110201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17110202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "171103",
+              "name_km": "កៀនសង្កែ",
+              "name_en": "Kien Sangkae",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17110301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17110302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1712",
+          "name_km": "ស្រុកស្រីស្នំ",
+          "name_en": "Srei Snam",
+          "type": "District",
+          "communes": [
+            {
+              "code": "171201",
+              "name_km": "ជ្រោយនាងងួន",
+              "name_en": "Chrouy Neang Nguon",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17120101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17120102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "171202",
+              "name_km": "ក្លែងហាយ",
+              "name_en": "Klaeng Hay",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17120201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17120202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1713",
+          "name_km": "ស្រុកស្វាយលើ",
+          "name_en": "Svay Leu",
+          "type": "District",
+          "communes": [
+            {
+              "code": "171301",
+              "name_km": "ស្វាយលើ",
+              "name_en": "Svay Leu",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17130101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17130102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "171302",
+              "name_km": "បឹងមាលា",
+              "name_en": "Boeng Mealea",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17130201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17130202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1714",
+          "name_km": "ស្រុកវារិន",
+          "name_en": "Varin",
+          "type": "District",
+          "communes": [
+            {
+              "code": "171401",
+              "name_km": "វារិន",
+              "name_en": "Varin",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17140101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17140102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "171402",
+              "name_km": "ស្រែណូយ",
+              "name_en": "Sre Nouy",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "17140201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "17140202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "name_km": "ខេត្តព្រះសីហនុ",
+      "name_en": "Preah Sihanouk",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "1801",
+          "name_km": "ក្រុងព្រះសីហនុ",
+          "name_en": "Krong Preah Sihanouk",
+          "communes": [
+            {
+              "code": "180101",
+              "name_km": "សង្កាត់លេខ១",
+              "name_en": "Sangkat Lekh 1",
               "villages": []
             },
             {
-              "code": "020802",
-              "name_km": "ឃុំនរា",
-              "name_en": "Norea",
+              "code": "180102",
+              "name_km": "សង្កាត់លេខ២",
+              "name_en": "Sangkat Lekh 2",
               "villages": []
             },
             {
-              "code": "020803",
-              "name_km": "ឃុំតាប៉ុន",
-              "name_en": "Ta Pon",
+              "code": "180103",
+              "name_km": "សង្កាត់លេខ៣",
+              "name_en": "Sangkat Lekh 3",
               "villages": []
             },
             {
-              "code": "020804",
-              "name_km": "ឃុំរាំងកេសី",
-              "name_en": "Reang Kesei",
+              "code": "180104",
+              "name_km": "សង្កាត់លេខ៤",
+              "name_en": "Sangkat Lekh 4",
               "villages": []
             },
             {
-              "code": "020805",
-              "name_km": "ឃុំរតនៈ",
-              "name_en": "Ratanak",
+              "code": "180105",
+              "name_km": "សង្កាត់កោះរ៉ុង",
+              "name_en": "Sangkat Koh Rong",
               "villages": []
             }
           ]
@@ -1338,64 +5594,469 @@
       ]
     },
     {
-      "code": "03",
-      "name_km": "ខេត្តកំពង់ចាម",
-      "name_en": "Kampong Cham",
+      "code": "19",
+      "name_km": "ខេត្តស្ទឹងត្រែង",
+      "name_en": "Stung Treng",
       "type": "Province",
       "districts": [
         {
-          "code": "0305",
-          "name_km": "ក្រុងកំពង់ចាម",
-          "name_en": "Krong Kampong Cham",
+          "code": "1903",
+          "name_km": "ក្រុងស្ទឹងត្រែង",
+          "name_en": "Krong Stung Treng",
           "communes": [
             {
-              "code": "030501",
-              "name_km": "សង្កាត់បឹងកុក",
-              "name_en": "Sangkat Boeng Kok",
+              "code": "190301",
+              "name_km": "សង្កាត់ស្ទឹងត្រែង",
+              "name_en": "Sangkat Stung Treng",
               "villages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "name_km": "ខេត្តស្វាយរៀង",
+      "name_en": "Svay Rieng",
+      "type": "Province",
+      "districts": [
+        {
+          "code": "2006",
+          "name_km": "ក្រុងស្វាយរៀង",
+          "name_en": "Krong Svay Rieng",
+          "communes": [
+            {
+              "code": "200601",
+              "name_km": "សង្កាត់ស្វាយរៀង",
+              "name_en": "Sangkat Svay Rieng",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "20060101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20060102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             },
             {
-              "code": "030502",
-              "name_km": "សង្កាត់កំពង់ចាម",
-              "name_en": "Sangkat Kampong Cham",
-              "villages": []
+              "code": "200602",
+              "name_km": "សង្កាត់ព្រៃឆ្លាក់",
+              "name_en": "Sangkat Prey Chhlak",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "20060201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20060202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             },
             {
-              "code": "030503",
-              "name_km": "សង្កាត់វាលវង់",
-              "name_en": "Sangkat Veal Vong",
-              "villages": []
-            },
-            {
-              "code": "030504",
-              "name_km": "សង្កាត់សំបួរមាស",
-              "name_en": "Sangkat Sambuor Meas",
-              "villages": []
+              "code": "200603",
+              "name_km": "សង្កាត់គយត្របែក",
+              "name_en": "Sangkat Koy Trabaek",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "20060301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20060302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             }
           ]
         },
         {
-          "code": "0303",
-          "name_km": "ស្រុកចំការលើ",
-          "name_en": "Chamkar Leu",
+          "code": "2008",
+          "name_km": "ក្រុងបាវិត",
+          "name_en": "Krong Bavet",
           "communes": [
             {
-              "code": "030301",
-              "name_km": "ឃុំបុសខ្នុរ",
-              "name_en": "Bos Khnor",
-              "villages": []
+              "code": "200801",
+              "name_km": "សង្កាត់បាវិត",
+              "name_en": "Sangkat Bavet",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "20080101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20080102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             },
             {
-              "code": "030302",
-              "name_km": "ឃុំចំការអណ្តូង",
-              "name_en": "Chamkar Andoung",
-              "villages": []
+              "code": "200802",
+              "name_km": "សង្កាត់ព្រៃអង្គុញ",
+              "name_en": "Sangkat Prey Angkunh",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "20080201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20080202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             },
             {
-              "code": "030303",
-              "name_km": "ឃុំស្វាយទាប",
-              "name_en": "Svay Teab",
-              "villages": []
+              "code": "200803",
+              "name_km": "សង្កាត់ច្រកម្ទេស",
+              "name_en": "Sangkat Chrak Mtes",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "20080301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20080302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2001",
+          "name_km": "ស្រុកចន្ទ្រា",
+          "name_en": "Chantrea",
+          "type": "District",
+          "communes": [
+            {
+              "code": "200101",
+              "name_km": "ចន្ទ្រា",
+              "name_en": "Chantrea",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20010101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20010102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "200102",
+              "name_km": "មេសរថ្ងក",
+              "name_en": "Me Sar Thngak",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20010201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20010202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2002",
+          "name_km": "ស្រុកកំពង់រោទិ៍",
+          "name_en": "Kampong Rou",
+          "type": "District",
+          "communes": [
+            {
+              "code": "200201",
+              "name_km": "ញរ",
+              "name_en": "Nhor",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20020101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20020102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "200202",
+              "name_km": "ខ្សែត្រ",
+              "name_en": "Khsaetr",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20020201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20020202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "200203",
+              "name_km": "ព្រះពន្លា",
+              "name_en": "Preah Ponlea",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20020301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20020302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2003",
+          "name_km": "ស្រុករំដួល",
+          "name_en": "Romdoul",
+          "type": "District",
+          "communes": [
+            {
+              "code": "200301",
+              "name_km": "កំពង់ចក",
+              "name_en": "Kampong Chak",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20030101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20030102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "200302",
+              "name_km": "បុសមន",
+              "name_en": "Bos Mon",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20030201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20030202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2004",
+          "name_km": "ស្រុករមាសហែក",
+          "name_en": "Romeas Haek",
+          "type": "District",
+          "communes": [
+            {
+              "code": "200401",
+              "name_km": "អំពិល",
+              "name_en": "Ampil",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20040101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20040102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "200402",
+              "name_km": "ដូង",
+              "name_en": "Doung",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20040201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20040202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "200403",
+              "name_km": "គោកព្រីង",
+              "name_en": "Kouk Pring",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20040301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20040302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2005",
+          "name_km": "ស្រុកស្វាយជ្រុំ",
+          "name_en": "Svay Chrum",
+          "type": "District",
+          "communes": [
+            {
+              "code": "200501",
+              "name_km": "ស្វាយជ្រុំ",
+              "name_en": "Svay Chrum",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20050101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20050102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "200502",
+              "name_km": "បាសាក់",
+              "name_en": "Basak",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20050201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20050202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "200503",
+              "name_km": "ចំបក់",
+              "name_en": "Chambak",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20050301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20050302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2007",
+          "name_km": "ស្រុកស្វាយទាប",
+          "name_en": "Svay Teab",
+          "type": "District",
+          "communes": [
+            {
+              "code": "200701",
+              "name_km": "កណ្តៀងរាយ",
+              "name_en": "Kandieng Reay",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20070101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20070102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "200702",
+              "name_km": "សំបួរ",
+              "name_en": "Sambour",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "20070201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "20070202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             }
           ]
         }
@@ -1468,446 +6129,466 @@
               "villages": []
             }
           ]
-        }
-      ]
-    },
-    {
-      "code": "07",
-      "name_km": "ខេត្តកំពត",
-      "name_en": "Kampot",
-      "type": "Province",
-      "districts": [
+        },
         {
-          "code": "0708",
-          "name_km": "ក្រុងកំពត",
-          "name_en": "Krong Kampot",
+          "code": "2101",
+          "name_km": "ស្រុកអង្គរបូរី",
+          "name_en": "Angkor Borei",
+          "type": "District",
           "communes": [
             {
-              "code": "070801",
-              "name_km": "សង្កាត់កំពង់កណ្តាល",
-              "name_en": "Sangkat Kampong Kandal",
-              "villages": []
+              "code": "210101",
+              "name_km": "អង្គរបូរី",
+              "name_en": "Angkor Borei",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21010101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21010102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             },
             {
-              "code": "070802",
-              "name_km": "សង្កាត់ក្រាំងអំពិល",
-              "name_en": "Sangkat Krang Ampil",
-              "villages": []
+              "code": "210102",
+              "name_km": "បាស្រែ",
+              "name_en": "Ba Sre",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21010201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21010202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             },
             {
-              "code": "070803",
-              "name_km": "សង្កាត់កំពង់បាយ",
-              "name_en": "Sangkat Kampong Bay",
-              "villages": []
-            },
-            {
-              "code": "070804",
-              "name_km": "សង្កាត់អណ្តូងខ្មែរ",
-              "name_en": "Sangkat Andoung Khmaer",
-              "villages": []
-            },
-            {
-              "code": "070805",
-              "name_km": "សង្កាត់ត្រើយកោះ",
-              "name_en": "Sangkat Traeuy Koh",
-              "villages": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "18",
-      "name_km": "ខេត្តព្រះសីហនុ",
-      "name_en": "Preah Sihanouk",
-      "type": "Province",
-      "districts": [
-        {
-          "code": "1801",
-          "name_km": "ក្រុងព្រះសីហនុ",
-          "name_en": "Krong Preah Sihanouk",
-          "communes": [
-            {
-              "code": "180101",
-              "name_km": "សង្កាត់លេខ១",
-              "name_en": "Sangkat Lekh 1",
-              "villages": []
-            },
-            {
-              "code": "180102",
-              "name_km": "សង្កាត់លេខ២",
-              "name_en": "Sangkat Lekh 2",
-              "villages": []
-            },
-            {
-              "code": "180103",
-              "name_km": "សង្កាត់លេខ៣",
-              "name_en": "Sangkat Lekh 3",
-              "villages": []
-            },
-            {
-              "code": "180104",
-              "name_km": "សង្កាត់លេខ៤",
-              "name_en": "Sangkat Lekh 4",
-              "villages": []
-            },
-            {
-              "code": "180105",
-              "name_km": "សង្កាត់កោះរ៉ុង",
-              "name_en": "Sangkat Koh Rong",
-              "villages": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "05",
-      "name_km": "ខេត្តកំពង់ស្ពឺ",
-      "name_en": "Kampong Speu",
-      "type": "Province",
-      "districts": [
-        {
-          "code": "0502",
-          "name_km": "ក្រុងច្បារមន",
-          "name_en": "Krong Chbar Mon",
-          "communes": [
-            {
-              "code": "050201",
-              "name_km": "សង្កាត់ច្បារមន",
-              "name_en": "Sangkat Chbar Mon",
-              "villages": []
-            },
-            {
-              "code": "050202",
-              "name_km": "សង្កាត់កណ្តោលដុំ",
-              "name_en": "Sangkat Kandaol Dom",
-              "villages": []
-            },
-            {
-              "code": "050203",
-              "name_km": "សង្កាត់រការធំ",
-              "name_en": "Sangkat Roka Thum",
-              "villages": []
-            },
-            {
-              "code": "050204",
-              "name_km": "សង្កាត់សុពណ៌ទេព",
-              "name_en": "Sangkat Sopoar Tep",
-              "villages": []
-            },
-            {
-              "code": "050205",
-              "name_km": "សង្កាត់ស្វាយក្រវ៉ាន់",
-              "name_en": "Sangkat Svay Kravan",
-              "villages": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "04",
-      "name_km": "ខេត្តកំពង់ឆ្នាំង",
-      "name_en": "Kampong Chhnang",
-      "type": "Province",
-      "districts": [
-        {
-          "code": "0403",
-          "name_km": "ក្រុងកំពង់ឆ្នាំង",
-          "name_en": "Krong Kampong Chhnang",
-          "communes": [
-            {
-              "code": "040301",
-              "name_km": "សង្កាត់កំពង់ឆ្នាំង",
-              "name_en": "Sangkat Kampong Chhnang",
-              "villages": []
-            },
-            {
-              "code": "040302",
-              "name_km": "សង្កាត់ផ្សារឆ្នាំង",
-              "name_en": "Sangkat Phsar Chhnang",
-              "villages": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "06",
-      "name_km": "ខេត្តកំពង់ធំ",
-      "name_en": "Kampong Thom",
-      "type": "Province",
-      "districts": [
-        {
-          "code": "0603",
-          "name_km": "ក្រុងស្ទឹងសែន",
-          "name_en": "Krong Stueng Saen",
-          "communes": [
-            {
-              "code": "060301",
-              "name_km": "សង្កាត់ដំរីជាន់ខ្លា",
-              "name_en": "Sangkat Damrei Choan Khla",
-              "villages": []
-            },
-            {
-              "code": "060302",
-              "name_km": "សង្កាត់កំពង់ធំ",
-              "name_en": "Sangkat Kampong Thom",
-              "villages": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "14",
-      "name_km": "ខេត្តព្រៃវែង",
-      "name_en": "Prey Veng",
-      "type": "Province",
-      "districts": [
-        {
-          "code": "1409",
-          "name_km": "ក្រុងព្រៃវែង",
-          "name_en": "Krong Prey Veng",
-          "communes": [
-            {
-              "code": "140901",
-              "name_km": "សង្កាត់កំពង់លាវ",
-              "name_en": "Sangkat Kampong Leav",
-              "villages": []
-            },
-            {
-              "code": "140902",
-              "name_km": "សង្កាត់ជើងទឹក",
-              "name_en": "Sangkat Cheung Tuek",
-              "villages": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "20",
-      "name_km": "ខេត្តស្វាយរៀង",
-      "name_en": "Svay Rieng",
-      "type": "Province",
-      "districts": [
-        {
-          "code": "2006",
-          "name_km": "ក្រុងស្វាយរៀង",
-          "name_en": "Krong Svay Rieng",
-          "communes": [
-            {
-              "code": "200601",
-              "name_km": "សង្កាត់ស្វាយរៀង",
-              "name_en": "Sangkat Svay Rieng",
-              "villages": []
-            },
-            {
-              "code": "200602",
-              "name_km": "សង្កាត់ព្រៃឆ្លាក់",
-              "name_en": "Sangkat Prey Chhlak",
-              "villages": []
+              "code": "210103",
+              "name_km": "គោកធ្លក",
+              "name_en": "Kouk Thlok",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21010301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21010302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             }
           ]
         },
         {
-          "code": "2008",
-          "name_km": "ក្រុងបាវិត",
-          "name_en": "Krong Bavet",
+          "code": "2103",
+          "name_km": "ស្រុកបូរីជលសារ",
+          "name_en": "Borei Cholsar",
+          "type": "District",
           "communes": [
             {
-              "code": "200801",
-              "name_km": "សង្កាត់បាវិត",
-              "name_en": "Sangkat Bavet",
-              "villages": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "15",
-      "name_km": "ខេត្តពោធិ៍សាត់",
-      "name_en": "Pursat",
-      "type": "Province",
-      "districts": [
-        {
-          "code": "1505",
-          "name_km": "ក្រុងពោធិ៍សាត់",
-          "name_en": "Krong Pursat",
-          "communes": [
-            {
-              "code": "150501",
-              "name_km": "សង្កាត់ផ្ទះព្រៃ",
-              "name_en": "Sangkat Phteah Prey",
-              "villages": []
+              "code": "210301",
+              "name_km": "បូរីជលសារ",
+              "name_en": "Borei Cholsar",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21030101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21030102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             },
             {
-              "code": "150502",
-              "name_km": "សង្កាត់ព្រៃញី",
-              "name_en": "Sangkat Prey Nhy",
-              "villages": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "01",
-      "name_km": "ខេត្តបន្ទាយមានជ័យ",
-      "name_en": "Banteay Meanchey",
-      "type": "Province",
-      "districts": [
-        {
-          "code": "0106",
-          "name_km": "ក្រុងសិរីសោភ័ណ",
-          "name_en": "Krong Serei Saophoan",
-          "communes": [
-            {
-              "code": "010601",
-              "name_km": "សង្កាត់កំពង់ស្វាយ",
-              "name_en": "Sangkat Kampong Svay",
-              "villages": []
+              "code": "210302",
+              "name_km": "កំពង់ក្រសាំង",
+              "name_en": "Kampong Krasang",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21030201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21030202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             }
           ]
         },
         {
-          "code": "0109",
-          "name_km": "ក្រុងប៉ោយប៉ែត",
-          "name_en": "Krong Poipet",
+          "code": "2104",
+          "name_km": "ស្រុកគិរីវង់",
+          "name_en": "Kiri Vong",
+          "type": "District",
           "communes": [
             {
-              "code": "010901",
-              "name_km": "សង្កាត់ប៉ោយប៉ែត",
-              "name_en": "Sangkat Poipet",
-              "villages": []
+              "code": "210401",
+              "name_km": "ព្រះបាទជាន់ជុំ",
+              "name_en": "Preah Bat Choan Chum",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21040101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21040102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "210402",
+              "name_km": "គោកព្រេច",
+              "name_en": "Kouk Prech",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21040201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21040202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "210403",
+              "name_km": "តាអូរ",
+              "name_en": "Ta Ou",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21040301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21040302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2105",
+          "name_km": "ស្រុកកោះអណ្តែត",
+          "name_en": "Koh Andaet",
+          "type": "District",
+          "communes": [
+            {
+              "code": "210501",
+              "name_km": "រមេញ",
+              "name_en": "Romenh",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21050101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21050102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "210502",
+              "name_km": "ព្រៃខ្លា",
+              "name_en": "Prey Khla",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21050201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21050202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2106",
+          "name_km": "ស្រុកព្រៃកប្បាស",
+          "name_en": "Prey Kabbas",
+          "type": "District",
+          "communes": [
+            {
+              "code": "210601",
+              "name_km": "ព្រៃកប្បាស",
+              "name_en": "Prey Kabbas",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21060101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21060102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "210602",
+              "name_km": "កំពែង",
+              "name_en": "Kampeaeng",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21060201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21060202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "210603",
+              "name_km": "ចំប៉ា",
+              "name_en": "Champa",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21060301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21060302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2107",
+          "name_km": "ស្រុកសំរោង",
+          "name_en": "Samraong",
+          "type": "District",
+          "communes": [
+            {
+              "code": "210701",
+              "name_km": "សំរោង",
+              "name_en": "Samraong",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21070101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21070102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "210702",
+              "name_km": "បឹងត្រាញ់ខាងជើង",
+              "name_en": "Boeng Tranh Khang Cheung",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21070201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21070202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2109",
+          "name_km": "ស្រុកត្រាំកក់",
+          "name_en": "Tram Kak",
+          "type": "District",
+          "communes": [
+            {
+              "code": "210901",
+              "name_km": "ត្រាំកក់",
+              "name_en": "Tram Kak",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21090101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21090102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "210902",
+              "name_km": "អង្គតាសោម",
+              "name_en": "Angk Ta Saom",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21090201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21090202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "210903",
+              "name_km": "គុស",
+              "name_en": "Kus",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21090301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21090302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2110",
+          "name_km": "ស្រុកទ្រាំង",
+          "name_en": "Treang",
+          "type": "District",
+          "communes": [
+            {
+              "code": "211001",
+              "name_km": "សំបួរ",
+              "name_en": "Sambour",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21100101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21100102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "211002",
+              "name_km": "រនាម",
+              "name_en": "Roneam",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21100201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21100202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "211003",
+              "name_km": "ព្រៃស្លឹក",
+              "name_en": "Prey Slaek",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "21100301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "21100302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "code": "10",
-      "name_km": "ខេត្តក្រចេះ",
-      "name_en": "Kratie",
+      "code": "22",
+      "name_km": "ខេត្តឧត្តរមានជ័យ",
+      "name_en": "Oddar Meanchey",
       "type": "Province",
       "districts": [
         {
-          "code": "1002",
-          "name_km": "ក្រុងក្រចេះ",
-          "name_en": "Krong Kratie",
+          "code": "2205",
+          "name_km": "ក្រុងសំរោង",
+          "name_en": "Krong Samraong",
           "communes": [
             {
-              "code": "100201",
-              "name_km": "សង្កាត់ក្រចេះ",
-              "name_en": "Sangkat Kratie",
-              "villages": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "19",
-      "name_km": "ខេត្តស្ទឹងត្រែង",
-      "name_en": "Stung Treng",
-      "type": "Province",
-      "districts": [
-        {
-          "code": "1903",
-          "name_km": "ក្រុងស្ទឹងត្រែង",
-          "name_en": "Krong Stung Treng",
-          "communes": [
-            {
-              "code": "190301",
-              "name_km": "សង្កាត់ស្ទឹងត្រែង",
-              "name_en": "Sangkat Stung Treng",
-              "villages": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "16",
-      "name_km": "ខេត្តរតនគិរី",
-      "name_en": "Ratanakiri",
-      "type": "Province",
-      "districts": [
-        {
-          "code": "1601",
-          "name_km": "ក្រុងបានលុង",
-          "name_en": "Krong Banlung",
-          "communes": [
-            {
-              "code": "160101",
-              "name_km": "សង្កាត់ឡាបានសៀក",
-              "name_en": "Sangkat Labansiek",
-              "villages": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "11",
-      "name_km": "ខេត្តមណ្ឌលគិរី",
-      "name_en": "Mondulkiri",
-      "type": "Province",
-      "districts": [
-        {
-          "code": "1105",
-          "name_km": "ក្រុងសែនមនោរម្យ",
-          "name_en": "Krong Sen Monorom",
-          "communes": [
-            {
-              "code": "110501",
-              "name_km": "សង្កាត់មនោរម្យ",
-              "name_en": "Sangkat Monorom",
-              "villages": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "13",
-      "name_km": "ខេត្តព្រះវិហារ",
-      "name_en": "Preah Vihear",
-      "type": "Province",
-      "districts": [
-        {
-          "code": "1308",
-          "name_km": "ក្រុងត្បែងមានជ័យ",
-          "name_en": "Krong Tbeng Meanchey",
-          "communes": [
-            {
-              "code": "130801",
-              "name_km": "សង្កាត់កំពង់ប្រណាក",
-              "name_en": "Sangkat Kampong Pranak",
-              "villages": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "09",
-      "name_km": "ខេត្តកោះកុង",
-      "name_en": "Koh Kong",
-      "type": "Province",
-      "districts": [
-        {
-          "code": "0904",
-          "name_km": "ក្រុងខេមរភូមិន្ទ",
-          "name_en": "Krong Khemara Phoumin",
-          "communes": [
-            {
-              "code": "090401",
-              "name_km": "សង្កាត់ស្មាច់ដែង",
-              "name_en": "Sangkat Smach Daeng",
+              "code": "220501",
+              "name_km": "សង្កាត់សំរោង",
+              "name_en": "Sangkat Samraong",
               "villages": []
             }
           ]
@@ -1957,27 +6638,6 @@
       ]
     },
     {
-      "code": "22",
-      "name_km": "ខេត្តឧត្តរមានជ័យ",
-      "name_en": "Oddar Meanchey",
-      "type": "Province",
-      "districts": [
-        {
-          "code": "2205",
-          "name_km": "ក្រុងសំរោង",
-          "name_en": "Krong Samraong",
-          "communes": [
-            {
-              "code": "220501",
-              "name_km": "សង្កាត់សំរោង",
-              "name_en": "Sangkat Samraong",
-              "villages": []
-            }
-          ]
-        }
-      ]
-    },
-    {
       "code": "25",
       "name_km": "ខេត្តត្បូងឃ្មុំ",
       "name_en": "Tboung Khmum",
@@ -1990,9 +6650,411 @@
           "communes": [
             {
               "code": "250701",
+              "name_km": "ជីគរ",
+              "name_en": "Chi Kor",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25070101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25070102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "250702",
+              "name_km": "ជប់",
+              "name_en": "Chob",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25070201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25070202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "250703",
+              "name_km": "ល្ងៀង",
+              "name_en": "Lngeang",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25070301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25070302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2501",
+          "name_km": "ស្រុកដំបែ",
+          "name_en": "Dambae",
+          "type": "District",
+          "communes": [
+            {
+              "code": "250101",
+              "name_km": "ដំបែ",
+              "name_en": "Dambae",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25010101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25010102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "250102",
+              "name_km": "ទឹកជ្រៅ",
+              "name_en": "Tuek Chrov",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25010201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25010202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "250103",
+              "name_km": "គោកស្រុក",
+              "name_en": "Kouk Srok",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25010301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25010302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2502",
+          "name_km": "ស្រុកក្រូចឆ្មារ",
+          "name_en": "Krouch Chhmar",
+          "type": "District",
+          "communes": [
+            {
+              "code": "250201",
+              "name_km": "ក្រូចឆ្មារ",
+              "name_en": "Krouch Chhmar",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25020101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25020102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "250202",
+              "name_km": "ឈូក",
+              "name_en": "Chhuk",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25020201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25020202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "250203",
+              "name_km": "រការខ្នុរ",
+              "name_en": "Roka Khnor",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25020301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25020302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2503",
+          "name_km": "ស្រុកមេមត់",
+          "name_en": "Memot",
+          "type": "District",
+          "communes": [
+            {
+              "code": "250301",
+              "name_km": "មេមត់",
+              "name_en": "Memot",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25030101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25030102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "250302",
+              "name_km": "ជាំតាម៉ៅ",
+              "name_en": "Choam Ta Mau",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25030201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25030202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "250303",
+              "name_km": "ត្រមូង",
+              "name_en": "Tramung",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25030301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25030302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2504",
+          "name_km": "ស្រុកអូររាំងឪ",
+          "name_en": "Ou Reang Ov",
+          "type": "District",
+          "communes": [
+            {
+              "code": "250401",
+              "name_km": "អំពិលតាពក",
+              "name_en": "Ampil Ta Pok",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25040101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25040102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "250402",
+              "name_km": "គងជ័យ",
+              "name_en": "Kong Chey",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25040201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25040202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "250403",
+              "name_km": "ព្រះធាតុ",
+              "name_en": "Preah Theat",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25040301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25040302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2505",
+          "name_km": "ស្រុកពញាក្រែក",
+          "name_en": "Ponhea Kraek",
+          "type": "District",
+          "communes": [
+            {
+              "code": "250501",
+              "name_km": "កោងកាង",
+              "name_en": "Kaong Kang",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25050101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25050102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "250502",
+              "name_km": "ក្រែក",
+              "name_en": "Kraek",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25050201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25050202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "250503",
+              "name_km": "ដូនតី",
+              "name_en": "Doun Tei",
+              "type": "Commune",
+              "villages": [
+                {
+                  "code": "25050301",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25050302",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "2506",
+          "name_km": "ក្រុងសួង",
+          "name_en": "Krong Suong",
+          "type": "Municipality",
+          "communes": [
+            {
+              "code": "250601",
               "name_km": "សង្កាត់សួង",
               "name_en": "Sangkat Suong",
-              "villages": []
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "25060101",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25060102",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
+            },
+            {
+              "code": "250602",
+              "name_km": "សង្កាត់វិហារហ្លួង",
+              "name_en": "Sangkat Vihear Luong",
+              "type": "Sangkat",
+              "villages": [
+                {
+                  "code": "25060201",
+                  "name_km": "ភូមិ១",
+                  "name_en": "Phum 1"
+                },
+                {
+                  "code": "25060202",
+                  "name_km": "ភូមិ២",
+                  "name_en": "Phum 2"
+                }
+              ]
             }
           ]
         }
