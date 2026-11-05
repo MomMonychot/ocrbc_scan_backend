@@ -187,6 +187,76 @@ def test_geo_validate_birthplace_invalid_province():
     assert len(data["discrepancy_alerts"]) > 0
 
 
+def test_geo_entities_pagination_and_search():
+    """Validates /api/v1/geo/entities search, sort, and pagination."""
+    # Test level filter: province
+    resp = client.get("/api/v1/geo/entities?level=province&page=1&page_size=10")
+    assert resp.status_code == 200
+    p_data = resp.json()
+    assert p_data["total"] == 25
+    assert len(p_data["items"]) == 10
+    assert p_data["page"] == 1
+    assert p_data["total_pages"] == 3
+
+    # Test search query "កណ្តាល"
+    s_resp = client.get("/api/v1/geo/entities?search=កណ្តាល")
+    assert s_resp.status_code == 200
+    s_data = s_resp.json()
+    assert s_data["total"] >= 1
+    assert any("កណ្តាល" in item["name_km"] for item in s_data["items"])
+
+    # Test sort by name_en desc
+    sort_resp = client.get("/api/v1/geo/entities?level=province&sort_by=name_en&sort_order=desc")
+    assert sort_resp.status_code == 200
+    sort_data = sort_resp.json()
+    items = sort_data["items"]
+    assert items[0]["name_en"] >= items[-1]["name_en"]
+
+
+def test_geo_entities_crud_lifecycle():
+    """Validates full Create, Read, Update, Delete lifecycle for an administrative unit."""
+    test_code = "99010199"
+
+    # 1. Create a new test village under an existing commune (120101 - Sangkat Tonle Bassac)
+    create_payload = {
+        "level": "village",
+        "code": test_code,
+        "name_km": "ភូមិតេស្តថ្មី",
+        "name_en": "Phum Test Thmei",
+        "type": "Village",
+        "parent_code": "120101",
+    }
+    create_resp = client.post("/api/v1/geo/entities", json=create_payload)
+    assert create_resp.status_code == 201
+
+    # 2. Verify search finds it
+    search_resp = client.get(f"/api/v1/geo/entities?search={test_code}")
+    assert search_resp.status_code == 200
+    search_data = search_resp.json()
+    assert search_data["total"] == 1
+    assert search_data["items"][0]["code"] == test_code
+    assert search_data["items"][0]["name_km"] == "ភូមិតេស្តថ្មី"
+
+    # 3. Update the village name
+    update_payload = {
+        "name_km": "ភូមិតេស្តកែប្រែ",
+        "name_en": "Phum Test Updated",
+        "type": "Village",
+    }
+    update_resp = client.put(f"/api/v1/geo/entities/village/{test_code}", json=update_payload)
+    assert update_resp.status_code == 200
+    assert update_resp.json()["entity"]["name_km"] == "ភូមិតេស្តកែប្រែ"
+
+    # 4. Delete the test village
+    del_resp = client.delete(f"/api/v1/geo/entities/village/{test_code}")
+    assert del_resp.status_code == 200
+
+    # 5. Verify it no longer exists
+    verify_del_resp = client.get(f"/api/v1/geo/entities?search={test_code}")
+    assert verify_del_resp.status_code == 200
+    assert verify_del_resp.json()["total"] == 0
+
+
 # ---------------------------------------------------------------------------
 # 4. Template Box Styling & Typography Engine
 # ---------------------------------------------------------------------------

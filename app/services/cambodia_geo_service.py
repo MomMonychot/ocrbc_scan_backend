@@ -10,6 +10,7 @@ Architectural Rationale:
 
 import json
 import logging
+import math
 import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -25,6 +26,7 @@ class CambodiaGeoService:
 
     def __init__(self, data_path: Path = GEO_DATA_PATH) -> None:
         self.data_path = data_path
+        self._raw_data: Dict[str, Any] = {"version": "2026.1", "provinces": []}
         self.provinces: List[Dict[str, Any]] = []
         self.districts: List[Dict[str, Any]] = []
         self.communes: List[Dict[str, Any]] = []
@@ -47,12 +49,26 @@ class CambodiaGeoService:
         with open(self.data_path, "r", encoding="utf-8") as f:
             raw = json.load(f)
 
+        self._raw_data = raw
+        self.provinces = []
+        self.districts = []
+        self.communes = []
+        self.villages = []
+        self._prov_km_list = []
+        self._dist_km_list = []
+        self._comm_km_list = []
+        self._vill_km_list = []
+
         for prov in raw.get("provinces", []):
             prov_entry = {
                 "code": prov["code"],
                 "name_km": prov["name_km"],
                 "name_en": prov["name_en"],
                 "type": prov.get("type", "Province"),
+                "level": "province",
+                "parent_name_km": "ព្រះរាជាណាចក្រកម្ពុជា",
+                "parent_name_en": "Kingdom of Cambodia",
+                "parent_code": "KH",
             }
             self.provinces.append(prov_entry)
             self._prov_km_list.append(prov["name_km"])
@@ -62,9 +78,14 @@ class CambodiaGeoService:
                     "code": dist["code"],
                     "name_km": dist["name_km"],
                     "name_en": dist["name_en"],
+                    "type": dist.get("type", "District"),
+                    "level": "district",
                     "province_code": prov["code"],
                     "province_name_km": prov["name_km"],
                     "province_name_en": prov["name_en"],
+                    "parent_name_km": prov["name_km"],
+                    "parent_name_en": prov["name_en"],
+                    "parent_code": prov["code"],
                 }
                 self.districts.append(dist_entry)
                 self._dist_km_list.append(dist["name_km"])
@@ -74,10 +95,15 @@ class CambodiaGeoService:
                         "code": comm["code"],
                         "name_km": comm["name_km"],
                         "name_en": comm["name_en"],
+                        "type": comm.get("type", "Commune"),
+                        "level": "commune",
                         "district_code": dist["code"],
                         "district_name_km": dist["name_km"],
                         "province_code": prov["code"],
                         "province_name_km": prov["name_km"],
+                        "parent_name_km": f"{prov['name_km']} > {dist['name_km']}",
+                        "parent_name_en": f"{prov['name_en']} > {dist['name_en']}",
+                        "parent_code": dist["code"],
                     }
                     self.communes.append(comm_entry)
                     self._comm_km_list.append(comm["name_km"])
@@ -87,10 +113,15 @@ class CambodiaGeoService:
                             "code": vill["code"],
                             "name_km": vill["name_km"],
                             "name_en": vill["name_en"],
+                            "type": vill.get("type", "Village"),
+                            "level": "village",
                             "commune_code": comm["code"],
                             "commune_name_km": comm["name_km"],
                             "district_code": dist["code"],
                             "province_code": prov["code"],
+                            "parent_name_km": f"{dist['name_km']} > {comm['name_km']}",
+                            "parent_name_en": f"{dist['name_en']} > {comm['name_en']}",
+                            "parent_code": comm["code"],
                         }
                         self.villages.append(vill_entry)
                         self._vill_km_list.append(vill["name_km"])
@@ -102,6 +133,337 @@ class CambodiaGeoService:
             len(self.communes),
             len(self.villages),
         )
+
+    def save_to_disk(self) -> None:
+        """Persists in-memory hierarchy changes to JSON gazetteer on disk."""
+        with open(self.data_path, "w", encoding="utf-8") as f:
+            json.dump(self._raw_data, f, ensure_ascii=False, indent=2)
+        logger.info("Administrative gazetteer successfully persisted to %s", self.data_path)
+
+    def get_villages(self, commune_code: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Retrieves villages, optionally filtered by commune."""
+        if commune_code:
+            return [v for v in self.villages if v.get("commune_code") == commune_code]
+        return self.villages
+
+    def get_paginated_entities(
+        self,
+        level: str = "all",
+        search: Optional[str] = None,
+        parent_code: Optional[str] = None,
+        sort_by: str = "code",
+        sort_order: str = "asc",
+        page: int = 1,
+        page_size: int = 15,
+    ) -> Dict[str, Any]:
+        """Filters, sorts, and paginates administrative divisions for tabular rendering."""
+        # 1. Gather candidates according to requested tier
+        candidates: List[Dict[str, Any]] = []
+        lvl = (level or "all").lower()
+        if lvl == "province":
+            candidates = list(self.provinces)
+        elif lvl == "district":
+            candidates = list(self.districts)
+        elif lvl == "commune":
+            candidates = list(self.communes)
+        elif lvl == "village":
+            candidates = list(self.villages)
+        else:
+            candidates = list(self.provinces) + list(self.districts) + list(self.communes) + list(self.villages)
+
+        # 2. Filter by parent_code if given
+        if parent_code:
+            p_code = str(parent_code).strip()
+            candidates = [
+                c
+                for c in candidates
+                if c.get("parent_code") == p_code
+                or c.get("province_code") == p_code
+                or c.get("district_code") == p_code
+                or c.get("commune_code") == p_code
+            ]
+
+        # 3. Filter by search query (code, name_km, name_en, parent names)
+        if search:
+            q = str(search).strip().lower()
+            candidates = [
+                c
+                for c in candidates
+                if q in str(c.get("code", "")).lower()
+                or q in str(c.get("name_km", "")).lower()
+                or q in str(c.get("name_en", "")).lower()
+                or q in str(c.get("parent_name_km", "")).lower()
+                or q in str(c.get("parent_name_en", "")).lower()
+            ]
+
+        # 4. Sorting
+        reverse = sort_order.lower() == "desc"
+        valid_sort_keys = ["code", "name_km", "name_en", "level", "type", "parent_code"]
+        key = sort_by if sort_by in valid_sort_keys else "code"
+
+        def _sort_key(item: Dict[str, Any]):
+            val = item.get(key, "")
+            return str(val).lower() if val is not None else ""
+
+        candidates.sort(key=_sort_key, reverse=reverse)
+
+        # 5. Pagination
+        total = len(candidates)
+        safe_page_size = max(1, min(100, page_size))
+        total_pages = max(1, math.ceil(total / safe_page_size))
+        current_page = max(1, min(page, total_pages))
+
+        start_idx = (current_page - 1) * safe_page_size
+        end_idx = start_idx + safe_page_size
+        page_items = candidates[start_idx:end_idx]
+
+        return {
+            "total": total,
+            "page": current_page,
+            "page_size": safe_page_size,
+            "total_pages": total_pages,
+            "items": page_items,
+        }
+
+    def update_entity(
+        self,
+        level: str,
+        code: str,
+        name_km: str,
+        name_en: str,
+        type_val: Optional[str] = None,
+    ) -> Optional[Dict[str, Any]]:
+        """Updates an administrative division's names and re-indexes."""
+        lvl = level.lower()
+        found = False
+
+        if lvl == "province":
+            for prov in self._raw_data.get("provinces", []):
+                if prov["code"] == code:
+                    prov["name_km"] = name_km
+                    prov["name_en"] = name_en
+                    if type_val:
+                        prov["type"] = type_val
+                    found = True
+                    break
+
+        elif lvl == "district":
+            for prov in self._raw_data.get("provinces", []):
+                for dist in prov.get("districts", []):
+                    if dist["code"] == code:
+                        dist["name_km"] = name_km
+                        dist["name_en"] = name_en
+                        if type_val:
+                            dist["type"] = type_val
+                        found = True
+                        break
+                if found:
+                    break
+
+        elif lvl == "commune":
+            for prov in self._raw_data.get("provinces", []):
+                for dist in prov.get("districts", []):
+                    for comm in dist.get("communes", []):
+                        if comm["code"] == code:
+                            comm["name_km"] = name_km
+                            comm["name_en"] = name_en
+                            if type_val:
+                                comm["type"] = type_val
+                            found = True
+                            break
+                    if found:
+                        break
+                if found:
+                    break
+
+        elif lvl == "village":
+            for prov in self._raw_data.get("provinces", []):
+                for dist in prov.get("districts", []):
+                    for comm in dist.get("communes", []):
+                        for vill in comm.get("villages", []):
+                            if vill["code"] == code:
+                                vill["name_km"] = name_km
+                                vill["name_en"] = name_en
+                                if type_val:
+                                    vill["type"] = type_val
+                                found = True
+                                break
+                        if found:
+                            break
+                    if found:
+                        break
+                if found:
+                    break
+
+        if not found:
+            return None
+
+        self.save_to_disk()
+        self._load_and_index()
+        return {"code": code, "level": lvl, "name_km": name_km, "name_en": name_en, "type": type_val}
+
+    def delete_entity(self, level: str, code: str) -> bool:
+        """Deletes an administrative division and re-indexes."""
+        lvl = level.lower()
+        found = False
+
+        if lvl == "province":
+            provinces = self._raw_data.get("provinces", [])
+            for idx, p in enumerate(provinces):
+                if p["code"] == code:
+                    del provinces[idx]
+                    found = True
+                    break
+
+        elif lvl == "district":
+            for prov in self._raw_data.get("provinces", []):
+                districts = prov.get("districts", [])
+                for idx, d in enumerate(districts):
+                    if d["code"] == code:
+                        del districts[idx]
+                        found = True
+                        break
+                if found:
+                    break
+
+        elif lvl == "commune":
+            for prov in self._raw_data.get("provinces", []):
+                for dist in prov.get("districts", []):
+                    communes = dist.get("communes", [])
+                    for idx, c in enumerate(communes):
+                        if c["code"] == code:
+                            del communes[idx]
+                            found = True
+                            break
+                    if found:
+                        break
+                if found:
+                    break
+
+        elif lvl == "village":
+            for prov in self._raw_data.get("provinces", []):
+                for dist in prov.get("districts", []):
+                    for comm in dist.get("communes", []):
+                        villages = comm.get("villages", [])
+                        for idx, v in enumerate(villages):
+                            if v["code"] == code:
+                                del villages[idx]
+                                found = True
+                                break
+                        if found:
+                            break
+                    if found:
+                        break
+                if found:
+                    break
+
+        if not found:
+            return False
+
+        self.save_to_disk()
+        self._load_and_index()
+        return True
+
+    def create_entity(
+        self,
+        level: str,
+        code: str,
+        name_km: str,
+        name_en: str,
+        parent_code: Optional[str] = None,
+        type_val: Optional[str] = None,
+    ) -> Dict[str, Any]:
+        """Creates a new administrative division under its designated parent."""
+        lvl = level.lower()
+
+        # Check for duplicate code
+        all_codes = [p["code"] for p in self.provinces] + [d["code"] for d in self.districts] + [c["code"] for c in self.communes] + [v["code"] for v in self.villages]
+        if code in all_codes:
+            raise ValueError(f"Administrative division with code '{code}' already exists.")
+
+        if lvl == "province":
+            new_prov = {
+                "code": code,
+                "name_km": name_km,
+                "name_en": name_en,
+                "type": type_val or "Province",
+                "districts": [],
+            }
+            self._raw_data.setdefault("provinces", []).append(new_prov)
+
+        elif lvl == "district":
+            if not parent_code:
+                raise ValueError("Parent province code is required to create a district.")
+            parent_prov = next((p for p in self._raw_data.get("provinces", []) if p["code"] == parent_code), None)
+            if not parent_prov:
+                raise ValueError(f"Parent province with code '{parent_code}' not found.")
+            new_dist = {
+                "code": code,
+                "name_km": name_km,
+                "name_en": name_en,
+                "type": type_val or "District",
+                "communes": [],
+            }
+            parent_prov.setdefault("districts", []).append(new_dist)
+
+        elif lvl == "commune":
+            if not parent_code:
+                raise ValueError("Parent district code is required to create a commune.")
+            parent_dist = None
+            for p in self._raw_data.get("provinces", []):
+                for d in p.get("districts", []):
+                    if d["code"] == parent_code:
+                        parent_dist = d
+                        break
+                if parent_dist:
+                    break
+            if not parent_dist:
+                raise ValueError(f"Parent district with code '{parent_code}' not found.")
+            new_comm = {
+                "code": code,
+                "name_km": name_km,
+                "name_en": name_en,
+                "type": type_val or "Commune",
+                "villages": [],
+            }
+            parent_dist.setdefault("communes", []).append(new_comm)
+
+        elif lvl == "village":
+            if not parent_code:
+                raise ValueError("Parent commune code is required to create a village.")
+            parent_comm = None
+            for p in self._raw_data.get("provinces", []):
+                for d in p.get("districts", []):
+                    for c in d.get("communes", []):
+                        if c["code"] == parent_code:
+                            parent_comm = c
+                            break
+                    if parent_comm:
+                        break
+                if parent_comm:
+                    break
+            if not parent_comm:
+                raise ValueError(f"Parent commune with code '{parent_code}' not found.")
+            new_vill = {
+                "code": code,
+                "name_km": name_km,
+                "name_en": name_en,
+                "type": type_val or "Village",
+            }
+            parent_comm.setdefault("villages", []).append(new_vill)
+        else:
+            raise ValueError(f"Invalid level '{level}'. Must be province, district, commune, or village.")
+
+        self.save_to_disk()
+        self._load_and_index()
+        return {
+            "code": code,
+            "level": lvl,
+            "name_km": name_km,
+            "name_en": name_en,
+            "parent_code": parent_code,
+            "type": type_val,
+        }
 
     def clean_prefix(self, name: str) -> str:
         """Strips administrative prefixes for invariant fuzzy score calculation."""

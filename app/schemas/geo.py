@@ -97,3 +97,68 @@ class ProvinceSummary(BaseModel):
     name_en: str = Field(..., examples=["Phnom Penh Capital"])
     type: str = Field(..., examples=["Capital"])
     district_count: int = Field(..., examples=[14])
+
+
+class GeoEntityCreate(BaseModel):
+    """Payload to add a new administrative division."""
+
+    level: str = Field(
+        ...,
+        description="Administrative tier: 'province', 'district', 'commune', or 'village'",
+        examples=["village"],
+    )
+    code: str = Field(
+        ...,
+        description="Official NIS Administrative code (e.g. '08110203')",
+        examples=["08110203"],
+    )
+    name_km: str = Field(
+        ...,
+        description="Official Khmer name",
+        examples=["ភូមិព្រែកសំរោង"],
+    )
+    name_en: str = Field(
+        ...,
+        description="Official Latin transliteration",
+        examples=["Phum Prek Samraong"],
+    )
+    type: Optional[str] = Field(
+        default=None,
+        description="Classification type (e.g. 'Province', 'Capital', 'Khan', 'Krong', 'Sangkat')",
+        examples=["Phum"],
+    )
+    parent_code: Optional[str] = Field(
+        default=None,
+        description="Parent administrative division code (required for district, commune, and village)",
+        examples=["081102"],
+    )
+
+
+class GeoEntityUpdate(BaseModel):
+    """Payload to update an existing administrative division."""
+
+    name_km: str = Field(
+        ...,
+        description="Updated Khmer name",
+        examples=["ភូមិព្រែកសំរោងថ្មី"],
+    )
+    name_en: str = Field(
+        ...,
+        description="Updated Latin transliteration",
+        examples=["Phum Prek Samraong Thmei"],
+    )
+    type: Optional[str] = Field(
+        default=None,
+        description="Classification type",
+        examples=["Phum"],
+    )
+
+
+class PaginatedGeoEntitiesResponse(BaseModel):
+    """Paginated tabular output of administrative divisions."""
+
+    total: int = Field(..., description="Total matched entity count", examples=[25])
+    page: int = Field(..., description="Current page number (1-indexed)", examples=[1])
+    page_size: int = Field(..., description="Rows per page", examples=[15])
+    total_pages: int = Field(..., description="Calculated total pages", examples=[2])
+    items: List[Dict[str, Any]] = Field(..., description="List of entity records")
