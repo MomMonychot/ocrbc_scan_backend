@@ -151,6 +151,9 @@ class CambodiaGeoService:
         level: str = "all",
         search: Optional[str] = None,
         parent_code: Optional[str] = None,
+        province_code: Optional[str] = None,
+        district_code: Optional[str] = None,
+        commune_code: Optional[str] = None,
         sort_by: str = "code",
         sort_order: str = "asc",
         page: int = 1,
@@ -171,8 +174,35 @@ class CambodiaGeoService:
         else:
             candidates = list(self.provinces) + list(self.districts) + list(self.communes) + list(self.villages)
 
-        # 2. Filter by parent_code if given
-        if parent_code:
+        # 2. Hierarchical cascading filters (Commune -> District -> Province -> Parent)
+        if commune_code:
+            c_code = str(commune_code).strip()
+            candidates = [
+                c
+                for c in candidates
+                if c.get("commune_code") == c_code
+                or c.get("code") == c_code
+                or c.get("parent_code") == c_code
+            ]
+        elif district_code:
+            d_code = str(district_code).strip()
+            candidates = [
+                c
+                for c in candidates
+                if c.get("district_code") == d_code
+                or c.get("code") == d_code
+                or c.get("parent_code") == d_code
+            ]
+        elif province_code:
+            p_code = str(province_code).strip()
+            candidates = [
+                c
+                for c in candidates
+                if c.get("province_code") == p_code
+                or c.get("code") == p_code
+                or c.get("parent_code") == p_code
+            ]
+        elif parent_code:
             p_code = str(parent_code).strip()
             candidates = [
                 c
