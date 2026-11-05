@@ -10527,15 +10527,7 @@
                   "name_km": "ភូមិដង្ហោ",
                   "name_en": "Danghao",
                   "type": "Village"
-                }
-              ]
-            },
-            {
-              "code": "021405",
-              "name_km": "ឃុំបាសាក់",
-              "name_en": "Basak",
-              "type": "Commune",
-              "villages": [
+                },
                 {
                   "code": "02140408",
                   "name_km": "ភូមិជំនាប់គគីរ",
@@ -10555,6 +10547,13 @@
                   "type": "Village"
                 }
               ]
+            },
+            {
+              "code": "021405",
+              "name_km": "ឃុំបាសាក់",
+              "name_en": "Basak",
+              "type": "Commune",
+              "villages": []
             }
           ]
         }
@@ -20041,43 +20040,43 @@
                   "type": "Village"
                 },
                 {
-                  "code": "04061500",
+                  "code": "04061402",
                   "name_km": "ភូមិដំបូកកកោះ",
                   "name_en": "Dambouk Kakaoh",
                   "type": "Village"
                 },
                 {
-                  "code": "04061600",
+                  "code": "04061403",
                   "name_km": "ភូមិស្មែត",
                   "name_en": "Smaet",
                   "type": "Village"
                 },
                 {
-                  "code": "04061700",
+                  "code": "04061404",
                   "name_km": "ភូមិធ្នង់កំបុត",
                   "name_en": "Thnung Kambut",
                   "type": "Village"
                 },
                 {
-                  "code": "04061800",
+                  "code": "04061405",
                   "name_km": "ភូមិចន្លោះរេន",
                   "name_en": "Chanlaoh Ren",
                   "type": "Village"
                 },
                 {
-                  "code": "04061900",
+                  "code": "04061406",
                   "name_km": "ភូមិទួលទ្រា",
                   "name_en": "Tuol Trea",
                   "type": "Village"
                 },
                 {
-                  "code": "04062000",
+                  "code": "04061407",
                   "name_km": "ភូមិថ្នល់តាសែង",
                   "name_en": "Thnal Ta Saeng",
                   "type": "Village"
                 },
                 {
-                  "code": "04062100",
+                  "code": "04061408",
                   "name_km": "ភូមិក្រពើពល់",
                   "name_en": "Krapeu Pul",
                   "type": "Village"
@@ -65441,6 +65440,12 @@
                   "name_km": "ភូមិយាយសល់",
                   "name_en": "Yeay Sal",
                   "type": "Village"
+                },
+                {
+                  "code": "14110405",
+                  "name_km": "ភូមិព្រៃកន្លោង",
+                  "name_en": "Prey Kanlaong",
+                  "type": "Village"
                 }
               ]
             },
@@ -65535,29 +65540,7 @@
                   "name_km": "ភូមិអន្លង់ទ្រាត្បូង",
                   "name_en": "Anlung Trea Tboung",
                   "type": "Village"
-                }
-              ]
-            },
-            {
-              "code": "141107",
-              "name_km": "ឃុំព្រែកតាសរ",
-              "name_en": "Preaek Ta Sar",
-              "type": "Commune",
-              "villages": [
-                {
-                  "code": "14110405",
-                  "name_km": "ភូមិព្រៃកន្លោង",
-                  "name_en": "Prey Kanlaong",
-                  "type": "Village"
-                }
-              ]
-            },
-            {
-              "code": "141109",
-              "name_km": "ឃុំ",
-              "name_en": "",
-              "type": "Commune",
-              "villages": [
+                },
                 {
                   "code": "14110608",
                   "name_km": "ភូមិកំពង់ឫស្សីត្បូង",
@@ -65573,9 +65556,9 @@
               ]
             },
             {
-              "code": "141110",
-              "name_km": "ឃុំ",
-              "name_en": "",
+              "code": "141107",
+              "name_km": "ឃុំព្រែកតាសរ",
+              "name_en": "Preaek Ta Sar",
               "type": "Commune",
               "villages": [
                 {
@@ -65609,6 +65592,20 @@
                   "type": "Village"
                 }
               ]
+            },
+            {
+              "code": "141109",
+              "name_km": "ឃុំ",
+              "name_en": "",
+              "type": "Commune",
+              "villages": []
+            },
+            {
+              "code": "141110",
+              "name_km": "ឃុំ",
+              "name_en": "",
+              "type": "Commune",
+              "villages": []
             }
           ]
         },
@@ -98715,6 +98712,48 @@
                   "name_km": "ភូមិព្រែកពួយ",
                   "name_en": "Praek Puoy",
                   "type": "Village"
+                },
+                {
+                  "code": "25031402",
+                  "name_km": "ភូមិក្ងោក",
+                  "name_en": "Kngaok",
+                  "type": "Village"
+                },
+                {
+                  "code": "25031403",
+                  "name_km": "ភូមិស្រែពោល",
+                  "name_en": "Srae Poul",
+                  "type": "Village"
+                },
+                {
+                  "code": "25031404",
+                  "name_km": "ភូមិទួលថ្ម",
+                  "name_en": "Tuol Thma",
+                  "type": "Village"
+                },
+                {
+                  "code": "25031405",
+                  "name_km": "ភូមិគគីរជើង",
+                  "name_en": "Kokir Cheung",
+                  "type": "Village"
+                },
+                {
+                  "code": "25031406",
+                  "name_km": "ភូមិគគីរត្បូង",
+                  "name_en": "Kokir Tboung",
+                  "type": "Village"
+                },
+                {
+                  "code": "25031407",
+                  "name_km": "ភូមិចំការថ្មី",
+                  "name_en": "Chamkar Thmei",
+                  "type": "Village"
+                },
+                {
+                  "code": "25031408",
+                  "name_km": "ភូមិសាឡង់ ៣",
+                  "name_en": "Salang Bei",
+                  "type": "Village"
                 }
               ]
             },
@@ -98723,98 +98762,49 @@
               "name_km": "ឃុំ",
               "name_en": "",
               "type": "Commune",
-              "villages": [
-                {
-                  "code": "25031402",
-                  "name_km": "ភូមិក្ងោក",
-                  "name_en": "Kngaok",
-                  "type": "Village"
-                }
-              ]
+              "villages": []
             },
             {
               "code": "250316",
               "name_km": "ឃុំ",
               "name_en": "",
               "type": "Commune",
-              "villages": [
-                {
-                  "code": "25031403",
-                  "name_km": "ភូមិស្រែពោល",
-                  "name_en": "Srae Poul",
-                  "type": "Village"
-                }
-              ]
+              "villages": []
             },
             {
               "code": "250317",
               "name_km": "ឃុំ",
               "name_en": "",
               "type": "Commune",
-              "villages": [
-                {
-                  "code": "25031404",
-                  "name_km": "ភូមិទួលថ្ម",
-                  "name_en": "Tuol Thma",
-                  "type": "Village"
-                }
-              ]
+              "villages": []
             },
             {
               "code": "250318",
               "name_km": "ឃុំ",
               "name_en": "",
               "type": "Commune",
-              "villages": [
-                {
-                  "code": "25031405",
-                  "name_km": "ភូមិគគីរជើង",
-                  "name_en": "Kokir Cheung",
-                  "type": "Village"
-                }
-              ]
+              "villages": []
             },
             {
               "code": "250319",
               "name_km": "ឃុំ",
               "name_en": "",
               "type": "Commune",
-              "villages": [
-                {
-                  "code": "25031406",
-                  "name_km": "ភូមិគគីរត្បូង",
-                  "name_en": "Kokir Tboung",
-                  "type": "Village"
-                }
-              ]
+              "villages": []
             },
             {
               "code": "250320",
               "name_km": "ឃុំ",
               "name_en": "",
               "type": "Commune",
-              "villages": [
-                {
-                  "code": "25031407",
-                  "name_km": "ភូមិចំការថ្មី",
-                  "name_en": "Chamkar Thmei",
-                  "type": "Village"
-                }
-              ]
+              "villages": []
             },
             {
               "code": "250321",
               "name_km": "ឃុំ",
               "name_en": "",
               "type": "Commune",
-              "villages": [
-                {
-                  "code": "25031408",
-                  "name_km": "ភូមិសាឡង់ ៣",
-                  "name_en": "Salang Bei",
-                  "type": "Village"
-                }
-              ]
+              "villages": []
             }
           ]
         },
