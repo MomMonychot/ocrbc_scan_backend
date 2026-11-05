@@ -8,7 +8,7 @@ Architectural and Security Rationale:
   do not accidentally persist citizen civil registration documents to persistent disks.
 """
 
-from typing import List, Union
+from typing import List, Optional, Union
 from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -111,6 +111,20 @@ class AppSettings(BaseSettings):
     fuzzy_match_manual_review_threshold: float = Field(
         default=70.0,
         description="Fuzzy matching threshold percentage below which manual review is mandated",
+    )
+
+    # Multimodal Vision OCR for Handwritten Khmer
+    gemini_api_key: Optional[str] = Field(
+        default=None,
+        description="Google Gemini API key for multimodal handwritten Khmer vision processing",
+    )
+    ocr_model_name: str = Field(
+        default="gemini-2.5-flash",
+        description="Primary multimodal vision model for cursive and handwritten Khmer documents",
+    )
+    ocr_fallback_model_name: str = Field(
+        default="gemini-2.0-flash",
+        description="Fallback vision model for handwritten Khmer document OCR",
     )
 
     @field_validator("allowed_origins", mode="before")

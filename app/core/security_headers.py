@@ -42,8 +42,17 @@ class SecurityHeadersMiddleware(BaseHTTPMiddleware):
         )
 
         # Baseline Content Security Policy (allows API JSON payloads while forbidding inline rogue scripts)
-        response.headers["Content-Security-Policy"] = (
-            "default-src 'self'; frame-ancestors 'none'; object-src 'none'; base-uri 'self';"
-        )
+        if request.url.path.startswith(("/docs", "/redoc", "/openapi.json")):
+            response.headers["Content-Security-Policy"] = (
+                "default-src 'self'; "
+                "script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; "
+                "style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; "
+                "img-src 'self' data: https://fastapi.tiangolo.com; "
+                "frame-ancestors 'none'; object-src 'none'; base-uri 'self';"
+            )
+        else:
+            response.headers["Content-Security-Policy"] = (
+                "default-src 'self'; frame-ancestors 'none'; object-src 'none'; base-uri 'self';"
+            )
 
         return response

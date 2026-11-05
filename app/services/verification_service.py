@@ -25,6 +25,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.core.config import app_settings
 from app.database.models import MunicipalCitizenRecord
+from app.services.cambodia_geo_service import cambodia_geo_service
 
 logger = logging.getLogger("district_ocr_verification")
 
@@ -225,6 +226,25 @@ async def cross_reference_extracted_text(
                         "extracted_value": extracted_district,
                         "reference_value": candidate.district_office,
                         "similarity_score": round(score, 2),
+                    }
+                )
+
+        # Field F: Birth Place Verification against Official Cambodia Geographic Hierarchy
+        extracted_birth_place = str(extracted_fields.get("birth_place", "")).strip()
+        if extracted_birth_place:
+            geo_eval = cambodia_geo_service.resolve_birthplace_address(extracted_birth_place)
+            geo_score = float(geo_eval["confidence_score"])
+            field_evaluations["birth_place"] = geo_score
+            if geo_eval["is_valid_administrative_path"] and geo_score >= auto_correct_threshold:
+                verified_output["birth_place"] = geo_eval["standardized_address_km"]
+            elif not geo_eval["is_valid_administrative_path"]:
+                discrepancies.append(
+                    {
+                        "field": "birth_place",
+                        "extracted_value": extracted_birth_place,
+                        "reference_value": geo_eval.get("standardized_address_km") or None,
+                        "similarity_score": round(geo_score, 2),
+                        "reason": "; ".join(geo_eval.get("discrepancy_alerts", ["Invalid administrative hierarchy"])),
                     }
                 )
 
