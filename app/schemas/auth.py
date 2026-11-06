@@ -35,3 +35,16 @@ class LoginResponse(BaseModel):
     access_token: str = Field(..., examples=["mock_sec_token_admin_2026"])
     token_type: str = Field(default="bearer", examples=["bearer"])
     user: UserProfile
+
+
+class ProfileUpdateRequest(BaseModel):
+    """Payload for updating user profile and credentials."""
+
+    username: str = Field(..., examples=["admin"])
+    full_name_km: Optional[str] = Field(default=None, examples=["អភិបាលប្រព័ន្ធរដ្ឋបាល"])
+    full_name_en: Optional[str] = Field(default=None, examples=["System Administrator"])
+    department_km: Optional[str] = Field(default=None)
+    department_en: Optional[str] = Field(default=None)
+    current_password: Optional[str] = Field(default=None)
+    new_password: Optional[str] = Field(default=None)
+

@@ -51,6 +51,21 @@ def test_auth_login_invalid_password():
     assert response.status_code == 401
 
 
+def test_update_user_profile():
+    """Verify updating user profile information and settings."""
+    payload = {
+        "username": "admin",
+        "full_name_km": "អភិបាលប្រព័ន្ធជាន់ខ្ពស់",
+        "department_km": "ការិយាល័យបច្ចេកវិទ្យា និងអត្រានុកូលដ្ឋាន",
+    }
+    response = client.put("/api/v1/auth/profile", json=payload)
+    assert response.status_code == 200
+    data = response.json()
+    assert data["full_name_km"] == "អភិបាលប្រព័ន្ធជាន់ខ្ពស់"
+    assert data["department_km"] == "ការិយាល័យបច្ចេកវិទ្យា និងអត្រានុកូលដ្ឋាន"
+
+
+
 def test_get_division_reports():
     """Verify listing of reports returns valid structure and unread count."""
     response = client.get("/api/v1/geo/reports")

@@ -12,7 +12,7 @@ import logging
 from typing import Any, Dict
 from fastapi import APIRouter, HTTPException, status
 
-from app.schemas.auth import LoginRequest, LoginResponse, UserProfile
+from app.schemas.auth import LoginRequest, LoginResponse, ProfileUpdateRequest, UserProfile
 
 logger = logging.getLogger("auth_endpoint")
 
@@ -101,3 +101,49 @@ async def get_current_user_profile(username: str = "admin") -> UserProfile:
         department_en=user_record["department_en"],
         permissions=user_record["permissions"],
     )
+
+
+@auth_router.put(
+    "/profile",
+    response_model=UserProfile,
+    status_code=status.HTTP_200_OK,
+    summary="Update User Profile and Settings",
+    description="Updates user display names, bureau department, or credentials.",
+)
+async def update_user_profile(payload: ProfileUpdateRequest) -> UserProfile:
+    """Updates user information."""
+    username = payload.username.strip().lower()
+    user_record = USERS_DATABASE.get(username)
+    if not user_record:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"User '{username}' was not found.",
+        )
+
+    if payload.current_password and payload.new_password:
+        if user_record["password"] != payload.current_password:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="ពាក្យសម្ងាត់បច្ចុប្បន្នមិនត្រឹមត្រូវ (Current password does not match).",
+            )
+        user_record["password"] = payload.new_password
+
+    if payload.full_name_km:
+        user_record["full_name_km"] = payload.full_name_km.strip()
+    if payload.full_name_en:
+        user_record["full_name_en"] = payload.full_name_en.strip()
+    if payload.department_km:
+        user_record["department_km"] = payload.department_km.strip()
+    if payload.department_en:
+        user_record["department_en"] = payload.department_en.strip()
+
+    return UserProfile(
+        username=username,
+        role=user_record["role"],
+        full_name_km=user_record["full_name_km"],
+        full_name_en=user_record["full_name_en"],
+        department_km=user_record["department_km"],
+        department_en=user_record["department_en"],
+        permissions=user_record["permissions"],
+    )
+
