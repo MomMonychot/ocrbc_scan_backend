@@ -16,12 +16,17 @@ from fastapi import APIRouter, HTTPException, Query, status
 from app.schemas.geo import (
     GeoEntityCreate,
     GeoEntityUpdate,
+    GeoReportCreate,
+    GeoReportItem,
+    GeoReportListResponse,
+    GeoReportUpdate,
     PaginatedGeoEntitiesResponse,
     ProvinceSummary,
     ValidateBirthplaceRequest,
     ValidateBirthplaceResponse,
 )
 from app.services.cambodia_geo_service import cambodia_geo_service
+from app.services.geo_report_service import geo_report_service
 
 logger = logging.getLogger("district_geo_endpoint")
 
@@ -292,3 +297,93 @@ async def delete_geographic_entity(
         "code": code,
         "level": level,
     }
+
+
+# ==============================================================================
+# Administrative Division Error Reports & Notifications (User -> Admin Flow)
+# ==============================================================================
+
+
+@geo_router.post(
+    "/reports",
+    response_model=GeoReportItem,
+    status_code=status.HTTP_201_CREATED,
+    summary="Submit an Administrative Division Error Report",
+    description="Allows users or civil registry officers to report naming, spelling, or boundary discrepancies.",
+)
+async def submit_division_report(payload: GeoReportCreate) -> GeoReportItem:
+    """Submits a report to the System Administrator."""
+    report = geo_report_service.create_report(
+        division_code=payload.division_code,
+        division_level=payload.division_level,
+        current_name_km=payload.current_name_km,
+        current_name_en=payload.current_name_en,
+        issue_type=payload.issue_type,
+        suggested_name_km=payload.suggested_name_km,
+        suggested_name_en=payload.suggested_name_en,
+        notes=payload.notes,
+        reported_by=payload.reported_by or "user",
+    )
+    return GeoReportItem(**report)
+
+
+@geo_router.get(
+    "/reports",
+    response_model=GeoReportListResponse,
+    status_code=status.HTTP_200_OK,
+    summary="List Administrative Division Reports and Notification Badge",
+    description="Retrieves submitted reports and pending notification count for system administrators.",
+)
+async def list_division_reports(
+    status_filter: Optional[str] = Query(None, description="Filter: 'all', 'pending', 'read', or 'resolved'"),
+) -> GeoReportListResponse:
+    """Returns all submitted reports with unread counts."""
+    data = geo_report_service.list_reports(status_filter=status_filter)
+    return GeoReportListResponse(**data)
+
+
+@geo_router.patch(
+    "/reports/{report_id}",
+    response_model=GeoReportItem,
+    status_code=status.HTTP_200_OK,
+    summary="Update Report Status (Mark as Read or Resolved)",
+    description="Updates status of an administrative report (e.g. 'read', 'resolved') with optional admin notes.",
+)
+async def update_division_report_status(
+    report_id: str,
+    payload: GeoReportUpdate,
+) -> GeoReportItem:
+    """Updates a report's lifecycle status."""
+    updated = geo_report_service.update_report(
+        report_id=report_id,
+        new_status=payload.status,
+        admin_notes=payload.admin_notes,
+    )
+    if not updated:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Report with ID '{report_id}' was not found.",
+        )
+    return GeoReportItem(**updated)
+
+
+@geo_router.delete(
+    "/reports/{report_id}",
+    response_model=Dict[str, Any],
+    status_code=status.HTTP_200_OK,
+    summary="Delete an Administrative Report",
+)
+async def delete_division_report(report_id: str) -> Dict[str, Any]:
+    """Deletes a report by ID."""
+    deleted = geo_report_service.delete_report(report_id)
+    if not deleted:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Report with ID '{report_id}' was not found.",
+        )
+    return {
+        "status": "success",
+        "message": f"Report '{report_id}' has been removed.",
+        "id": report_id,
+    }
+

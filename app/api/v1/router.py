@@ -13,6 +13,7 @@ Architectural and Security Rationale:
 
 from fastapi import APIRouter
 
+from app.api.v1.endpoints.auth import auth_router
 from app.api.v1.endpoints.documents import documents_router
 from app.api.v1.endpoints.geo import geo_router
 from app.api.v1.endpoints.health_check import health_check_router
@@ -20,6 +21,12 @@ from app.api.v1.endpoints.ocr import ocr_router
 from app.api.v1.endpoints.templates import templates_router
 
 api_v1_router = APIRouter()
+
+# 0. System Authentication & Roles
+api_v1_router.include_router(
+    auth_router,
+    tags=["system_authentication"],
+)
 
 # 1. System Health and Integrity Telemetry
 api_v1_router.include_router(

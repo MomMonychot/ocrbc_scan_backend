@@ -162,3 +162,57 @@ class PaginatedGeoEntitiesResponse(BaseModel):
     page_size: int = Field(..., description="Rows per page", examples=[15])
     total_pages: int = Field(..., description="Calculated total pages", examples=[2])
     items: List[Dict[str, Any]] = Field(..., description="List of entity records")
+
+
+class GeoReportCreate(BaseModel):
+    """Payload to submit a user report regarding an error in administrative divisions."""
+
+    division_code: str = Field(..., description="NIS code of the division", examples=["14010101"])
+    division_level: str = Field(..., description="Level: 'province', 'district', 'commune', or 'village'", examples=["village"])
+    current_name_km: str = Field(..., description="Current displayed Khmer name", examples=["ភូមិតាកែវ"])
+    current_name_en: Optional[str] = Field(default=None, description="Current displayed Latin transliteration", examples=["Ta Kaev"])
+    issue_type: str = Field(
+        ...,
+        description="Type of error: 'spelling', 'incorrect_name', 'wrong_hierarchy', or 'other'",
+        examples=["spelling"],
+    )
+    suggested_name_km: Optional[str] = Field(default=None, description="User suggested correct Khmer name", examples=["ភូមិតាកែវលើ"])
+    suggested_name_en: Optional[str] = Field(default=None, description="User suggested Latin name", examples=["Ta Kaev Leu"])
+    notes: Optional[str] = Field(default=None, description="Detailed explanation of the error", examples=["អក្ខរាវិរុទ្ធខ្វះស្រៈ"])
+    reported_by: Optional[str] = Field(default="user", description="Username or citizen identifier", examples=["civil_officer_01"])
+
+
+class GeoReportUpdate(BaseModel):
+    """Payload for administrators to update the status of a reported issue."""
+
+    status: str = Field(..., description="Updated status: 'pending', 'read', or 'resolved'", examples=["read"])
+    admin_notes: Optional[str] = Field(default=None, description="Notes added by administrator during review")
+
+
+class GeoReportItem(BaseModel):
+    """Full detail of a submitted administrative division report."""
+
+    id: str = Field(..., examples=["rep-20261106-001"])
+    division_code: str = Field(..., examples=["14010101"])
+    division_level: str = Field(..., examples=["village"])
+    current_name_km: str = Field(..., examples=["ភូមិតាកែវ"])
+    current_name_en: Optional[str] = Field(default=None, examples=["Ta Kaev"])
+    parent_hierarchy_km: Optional[str] = Field(default=None, examples=["ខេត្តព្រៃវែង > ស្រុកបាភ្នំ > ឃុំបឹងព្រះ"])
+    parent_hierarchy_en: Optional[str] = Field(default=None, examples=["Prey Veng > Ba Phnum > Boeng Preah"])
+    issue_type: str = Field(..., examples=["spelling"])
+    suggested_name_km: Optional[str] = Field(default=None, examples=["ភូមិតាកែវលើ"])
+    suggested_name_en: Optional[str] = Field(default=None, examples=["Ta Kaev Leu"])
+    notes: Optional[str] = Field(default=None)
+    reported_by: str = Field(default="user")
+    created_at: str = Field(..., examples=["2026-11-06T08:30:00+07:00"])
+    status: str = Field(default="pending", description="'pending', 'read', or 'resolved'", examples=["pending"])
+    admin_notes: Optional[str] = Field(default=None)
+
+
+class GeoReportListResponse(BaseModel):
+    """Response containing list of administrative reports and unread tally."""
+
+    total: int = Field(..., examples=[2])
+    unread_count: int = Field(..., examples=[1])
+    reports: List[GeoReportItem]
+

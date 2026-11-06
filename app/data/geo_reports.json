@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "reports": [
+    {
+      "id": "rep-20261106-001",
+      "division_code": "14010101",
+      "division_level": "village",
+      "current_name_km": "ភូមិតាកែវ",
+      "current_name_en": "Phum Ta Kaev",
+      "parent_hierarchy_km": "ខេត្តព្រៃវែង > ស្រុកបាភ្នំ > ឃុំបឹងព្រះ",
+      "parent_hierarchy_en": "Prey Veng > Ba Phnum > Boeng Preah",
+      "issue_type": "spelling",
+      "suggested_name_km": "ភូមិតាកែវលើ",
+      "suggested_name_en": "Phum Ta Kaev Leu",
+      "notes": "យោងតាមសេចក្តីសម្រេចថ្មីរបស់រដ្ឋបាលឃុំបឹងព្រះ ភូមិនេះត្រូវបានប្តូរឈ្មោះជា 'ភូមិតាកែវលើ' ដើម្បីកុំឱ្យច្រឡំជាមួយភូមិតាកែវក្រោម។",
+      "reported_by": "user",
+      "created_at": "2026-11-06T08:15:00+07:00",
+      "status": "read",
+      "admin_notes": null
+    },
+    {
+      "id": "rep-20261106-002",
+      "division_code": "14010102",
+      "division_level": "village",
+      "current_name_km": "ភូមិកណ្តាល",
+      "current_name_en": "Phum Kandal",
+      "parent_hierarchy_km": "ខេត្តព្រៃវែង > ស្រុកបាភ្នំ > ឃុំបឹងព្រះ",
+      "parent_hierarchy_en": "Prey Veng > Ba Phnum > Boeng Preah",
+      "issue_type": "spelling",
+      "suggested_name_km": "ភូមិកណ្ដាល",
+      "suggested_name_en": "Phum Kandal",
+      "notes": "អក្ខរាវិរុទ្ធឈ្មោះភូមិក្នុងសំបុត្រកំណើតចាស់ប្រើ 'កណ្ដាល' (បន្តក់ ណ្ដ) មិនមែន 'កណ្តាល' ទេ។",
+      "reported_by": "civil_officer_02",
+      "created_at": "2026-11-06T08:45:00+07:00",
+      "status": "pending",
+      "admin_notes": null
+    }
+  ]
+}
